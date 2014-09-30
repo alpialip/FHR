@@ -1,0 +1,2447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="4ad0f3a7-3638-494b-b52c-e02bb5a99d73"
+  name="ViewModels"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="a5c50b6e-71db-4582-9ea9-4ee077dc46dd"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPersonaHealthTest.ViewModels"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0a1626cf-7209-405e-9f14-98dbdd273a22"
+        name="CollectionDataItemViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="72978fcd-83ac-4831-9831-2068fcfe5a33"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1acd860c-bc3d-4e1d-82b5-63d5b94686a4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="90588b3e-36de-4e39-9ce5-317b8ef76069">
+                <propertyInstance
+                  Id="4d6a04bf-d0ac-46c8-b1b8-ae1845649439"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="569fca0e-b48a-4a2c-81a5-96a730c591b9">
+                <propertyInstance
+                  Id="d9aea44b-45ba-45b6-93e4-a8f2b762c0ea"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a05d985a-269b-468b-bc64-20e7f741ac5e">
+                <propertyInstance
+                  Id="3f0dcf60-5e74-4757-857c-01254268d7de"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03e3f70b-1bbd-4fc4-b650-f476cfbc2382">
+                <propertyInstance
+                  Id="86d68585-11f5-43e1-ab7f-fb5de5df1126"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1407c05-b8d7-4b18-a9bb-e607deec1189">
+                <propertyInstance
+                  Id="c8d1f0c0-59d1-4623-9598-eae932b714f2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="ebd76f0c-9be3-43fd-a40d-188449a0436e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="59d0ac25-2568-41fe-bad4-17a2c6c686c0"
+              LastKnownName="ViewModelBase"
+              LastKnownLocation="Package1_0225.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="4ebbba48-d8dc-47dc-9ed6-45af83f353d3"
+            isDerived="false"
+            sourceEndRoleName="CollectionDataItemViewModel"
+            targetEndRoleName="Items"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4fb11455-b5c9-4ed3-be07-413feb943648"
+              LastKnownName="ObservableCollection&lt;DataItemViewModel‎&gt;"
+              LastKnownLocation="Package2_0225.uml" />
+            <description>Property Items references type ObservableCollection&lt;DataItemViewModel‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e1939ef2-e5b0-421e-bee5-3caf80dac34d"
+                  name="CollectionDataItemViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="31e72ada-a154-4ada-bc1c-f415384b40f7"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="af10978b-836e-418c-ae4f-9a77cc8042d6"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e2379e91-6ed4-4835-b229-323b646fbcf8"
+                  name="Items"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d1052934-894c-4de3-8bfa-ae0edbbcd71a"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="09a5db35-9c05-437a-b3a1-0e2ee1db9f2b"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="ff960046-73ed-4ab2-9b75-d56d50719df2"
+            name="Information"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="25d17bd3-47c3-4cef-9e3a-c39201022d76"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3DInformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f128556a-6dac-45af-9718-6a1dbeab7d80"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20af7e86-7801-47a3-b3c3-0493a9350695">
+                    <propertyInstance
+                      Id="76ff7c09-381c-4a82-b9cb-f3768bcaae83"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b93751c-012a-45d4-b437-0378ba380f01">
+                    <propertyInstance
+                      Id="6c0c64c3-6f4d-4e0f-a0a2-48214f5b197c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6ada484-e482-473b-a239-4df5c4c12f32">
+                    <propertyInstance
+                      Id="dd3be252-075a-4692-ab23-c6a0acf50544"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="938852ab-419b-4bf4-80b9-9e52b4763feb">
+                    <propertyInstance
+                      Id="55c6e8b5-7afc-45c4-9a52-a5c250af8fc6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b96dbea-0da7-4e2d-aad2-86eeedd08048">
+                    <propertyInstance
+                      Id="d3c255a2-3108-49e5-8658-edc16e0b63fe"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc5551dc-e43b-4545-8c57-6f7a1262a516">
+                    <propertyInstance
+                      Id="c0552a0a-f51b-47b5-8c77-e357d8cae025"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="864ce8ba-7056-44c2-9f93-bc1cb1bfe0d1">
+                    <propertyInstance
+                      Id="47f524f0-6d80-4bec-9b0f-847ae3a4e93a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="66619f4b-bd96-436f-bd50-dbfa1290ff7a"
+            name="Items"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c5bed2e6-c971-472b-a217-0774db9af4be"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3DItems"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="838c9fe4-9d5b-44f7-a5f7-f33533a90554"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bff0d744-d849-4bcc-bc0d-748a2348dbd1">
+                    <propertyInstance
+                      Id="9c5e16a2-9a83-4822-879b-324be4eb715f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f183af0-dbaa-4352-a2b1-33bf752e0a9f">
+                    <propertyInstance
+                      Id="7d3e3744-72c8-48ff-b6ca-0f73c68057c4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa54f3e6-dcf6-4e73-9bd2-7bb20060aaa6">
+                    <propertyInstance
+                      Id="59b53b9d-63dd-4e7e-a662-2c597dfb0952"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93934586-1baa-4270-b3ab-ae0c979c490b">
+                    <propertyInstance
+                      Id="6b96526d-c43f-4467-aa08-2eaca9cc8c1a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a44a9488-7d62-420c-816a-a970cb4cd255">
+                    <propertyInstance
+                      Id="c7378ea5-00bf-445c-92b7-bdee80db0f47"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e35571f-e9f2-4287-8834-2c774844938e">
+                    <propertyInstance
+                      Id="c55ec91b-a7c8-478d-8c2b-d349b8f0fb70"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0807c41-9e41-4ba9-be7f-77c02d3b9788">
+                    <propertyInstance
+                      Id="b8d9e9d7-9b2c-4edf-adb4-96221c600840"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4fb11455-b5c9-4ed3-be07-413feb943648"
+                LastKnownName="ObservableCollection&lt;DataItemViewModel‎&gt;"
+                LastKnownLocation="Package2_0225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="86ee2aca-3cb7-495e-b306-f0498b51c044"
+            name="Title"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b5ffbdfd-622f-49fe-ab59-907f2edff111"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3DTitle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6a17f0f3-5f1b-48a5-ab3a-8345804e2ab1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f4ed87d-7063-43d1-b732-e9fe03357474">
+                    <propertyInstance
+                      Id="fdaf214f-0dc9-4ac8-8984-0aa855d0aa19"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30b7fba9-b4ba-4549-97fa-218a556a708e">
+                    <propertyInstance
+                      Id="b694eb5f-80d9-4006-a48c-7c7ea43c4e24"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f6a76ab-b0b3-437c-8a3d-1ded6ccd6ece">
+                    <propertyInstance
+                      Id="2c480542-591c-428f-8c18-69624541e7ba"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdb28a31-f29f-40f7-9891-e1e7ed8f2997">
+                    <propertyInstance
+                      Id="ee426a4c-07fc-4f32-9c42-aa44feb5ca42"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="767fa6e0-990f-46a9-b650-c10cd3fcafc7">
+                    <propertyInstance
+                      Id="b84b30f4-3e45-4916-9f98-51afa1e53298"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3dd8a439-d0de-4a8c-b187-b81458ae6063">
+                    <propertyInstance
+                      Id="6f5da9e8-5073-4f68-b452-67ac2aa4cf8d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40ae1719-c36e-4c8d-b754-8d6c35de1c44">
+                    <propertyInstance
+                      Id="564d9081-b54f-4bdb-bab0-8ceecbae5abc"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="686945ad-3e68-41f0-805a-971d22722b46"
+            name="information"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="13777b54-14f2-4ee7-8dd2-01e013d37707"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3Dinformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b9659360-8508-4521-8081-726791ac779a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62d7dbaf-9c60-4016-bf19-0b7418ab7f57">
+                    <propertyInstance
+                      Id="70e7b5d2-cef4-4c0d-aab3-d3facc7f3f48"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a44505ca-1db7-43b9-afea-2bc119d4f223">
+                    <propertyInstance
+                      Id="1506e105-2ea7-4e84-a1ed-dfde546ebaa0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2db92e01-2215-4c11-aa6c-bf0cf82f2d74">
+                    <propertyInstance
+                      Id="39cef8f2-238a-490c-8cdc-ecef16b22a7b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b2ac812-c34e-480c-8794-65cfc2c7d8fd">
+                    <propertyInstance
+                      Id="e30ddc92-d30a-48a6-b9ec-69d2c42fecbc"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="406f5f1b-8f38-414c-b8af-bafeb65f736b">
+                    <propertyInstance
+                      Id="cc729ccd-574d-4b87-bf65-5be5237e8cdb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="007d1563-9c9a-4a7c-865e-86609e41deb0"
+            name="items"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="031e175c-5c7e-405f-b598-df99a1b15d00"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3Ditems"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dab9bbab-e4e0-489f-9c8f-99e295654034"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7838536-4d01-4101-bf78-fb427e4c98f9">
+                    <propertyInstance
+                      Id="1b184e83-5b4e-4ce5-a1bf-92d2a6857d16"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="107ef00c-5719-44cd-b2fe-24e438d80367">
+                    <propertyInstance
+                      Id="9610ae20-42a9-4cec-b2da-9754209596ad"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f647fdb7-cae4-46de-993e-15446b3c5991">
+                    <propertyInstance
+                      Id="e94ddc7d-7f9a-48a1-a59a-dad4b7abdb9a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2410e0fc-6bcb-4138-94c9-df1481f24bb3">
+                    <propertyInstance
+                      Id="318384e0-0d4b-4c10-853c-058192473418"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="679bb409-862c-41a4-ad04-88ec3336a32d">
+                    <propertyInstance
+                      Id="6100f945-723f-485c-a050-567615d970fc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4fb11455-b5c9-4ed3-be07-413feb943648"
+                LastKnownName="ObservableCollection&lt;DataItemViewModel‎&gt;"
+                LastKnownLocation="Package2_0225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b5b56bb0-bec6-4847-be8b-118d8e59c9f3"
+            name="title"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="20605bd5-d787-408a-a2cf-e4c2bd3c4a6b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3Dtitle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c52dde3-f8f7-435b-8ca4-7a370fee866d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c343a143-3be1-4480-9e85-108cc02ab1c1">
+                    <propertyInstance
+                      Id="bc7ac299-31fd-4bdb-a0aa-22cddf6d34cb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4258ff21-53c0-460d-883b-80ca59911dc7">
+                    <propertyInstance
+                      Id="9238412d-950c-4e19-8d9e-d20df1d59a91"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b708300-8fad-466a-92ba-c58bb5e52cbc">
+                    <propertyInstance
+                      Id="4373e691-252b-4f2a-977e-98c21f8dd23d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a468496d-3fba-4ce5-886d-1d5308a2a498">
+                    <propertyInstance
+                      Id="d6263a91-b476-40d7-966a-832ebfcb23a8"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9a67f6d-1fa1-4785-a4e7-b3ce7b8a16ab">
+                    <propertyInstance
+                      Id="e69c2c11-aa98-4362-95d0-abd408ee3d11"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="16e0ffe6-277f-4dfa-9444-32d89c871b2a"
+            name="CollectionDataItemViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ff32458f-ad80-4648-9c46-497e7a445ab6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="398315b9-0d8f-4594-9274-3f6f27af9c2e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="025540ae-6c52-4538-a1c2-633dbac123b0">
+                    <propertyInstance
+                      Id="733bafe8-9e5c-4b96-9772-88f2dbfeb8d5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b46c57ba-7eb6-4ac8-94a2-a44f594bf979">
+                    <propertyInstance
+                      Id="62c431f5-8156-4ed8-8271-03ff08864017"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d17a43e-19b2-4ca7-a1b5-b2f0ccf3f953">
+                    <propertyInstance
+                      Id="bb38a654-79ae-4cdc-80e0-cf5cadfed457"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e18e4fb-903e-4604-9db9-3571678bba9e">
+                    <propertyInstance
+                      Id="75b8e1ea-c8d3-4831-85a9-0356d3f6d9df"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="308af046-a32f-46b5-bfd6-51b06332fa3f">
+                    <propertyInstance
+                      Id="48380708-5f4f-4097-a839-5fa706150703"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2b219d1-58e1-4619-91ce-74c3b57fc151">
+                    <propertyInstance
+                      Id="6fce2170-035b-47f8-aa54-fe541b639e6d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b45ea507-7b10-4889-9bdf-b6e3f5c9ff9e"
+                  name="title"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="001115bf-ffc3-4326-b921-526c078f528f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtitle"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5c9ceb0e-237a-4632-8f97-fb644415a836"
+                  name="information"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6a6b90eb-51d7-48f7-8367-0dfed57126ff"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dinformation"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e6d2e9a9-443e-4af7-a4ea-60cc0f27a17d"
+            name="InitializeItems"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="83abac5b-fa9a-43b3-8ebd-2e4de04129c3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DCollectionDataItemViewModel Member%3DInitializeItems"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4705784e-9698-4d06-a485-dbfd2052a63d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0419d73-3c0a-4c52-8097-58cc7e81fd4c">
+                    <propertyInstance
+                      Id="56391e16-36ae-42e5-9a3f-11f8f2454bbf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72815cb5-0a0e-4a75-ae61-ed7a35da7594">
+                    <propertyInstance
+                      Id="757d80d9-b997-4152-9842-ba2c1995c637"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="813cf7ff-e933-4062-a591-ca67cee8c97a">
+                    <propertyInstance
+                      Id="b18c3fcc-1a65-4b38-ad72-a4ca90cca41e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b22227c-74a4-49d9-af6b-442cef9ddebc">
+                    <propertyInstance
+                      Id="dcd7769f-bec8-4866-92d2-ed950ed1ab28"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c49e8bec-4bd7-4909-a149-a7bb1c2eb512">
+                    <propertyInstance
+                      Id="0cb8c437-67b2-4eec-9a9f-b59392283074"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d962412f-60fc-45eb-a488-a0a477d4390a">
+                    <propertyInstance
+                      Id="20798faf-319a-4a66-a1e3-4ff6bfe0009a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5e55ef45-d403-443d-aa45-6e4afae2d8dd"
+        name="DataItemViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="277a38e9-a033-4bab-9d34-dc703bc59a64"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0c13d514-7c26-4f15-b320-a2d749c19068"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61b42ac4-106a-425d-8481-e744e33c5c66">
+                <propertyInstance
+                  Id="9236d00e-e341-4203-86f5-3addd481ceb9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c732e370-8e5a-4d5c-a60e-fbfd59429666">
+                <propertyInstance
+                  Id="39ef2a10-1dfa-4d25-9801-a57081177fa8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03a2cdac-c7f6-4520-b76e-bdfbd3e94dff">
+                <propertyInstance
+                  Id="727b6e7a-a50d-434a-926f-55ae29b00a89"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c0f75520-7733-4a42-b4dd-765bc13aa069">
+                <propertyInstance
+                  Id="c620b43d-cd40-472a-8e83-0f1f9ed15451"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4d54772-60e3-4de9-8f55-086dceb224f8">
+                <propertyInstance
+                  Id="f203f676-cce7-4c43-a6ae-4eae52cc563a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="b15916be-955b-4507-bb87-4f51f6c6c40a"
+            isSubstitutable="false">
+            <classMoniker
+              Id="59d0ac25-2568-41fe-bad4-17a2c6c686c0"
+              LastKnownName="ViewModelBase"
+              LastKnownLocation="Package1_0225.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="b16e899e-4408-42a1-a388-5f7aea6465fa"
+            isDerived="false"
+            sourceEndRoleName="DataItemViewModel"
+            targetEndRoleName="ImageSource"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d41d9b23-dc6d-4471-aef1-7fa2bc6c6b55"
+              LastKnownName="Uri"
+              LastKnownLocation="Package1_0826.uml" />
+            <description>Property ImageSource references type Uri.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="83c7f1df-3af4-4eb4-a464-b0350b0b93aa"
+                  name="DataItemViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e385cd05-5f0c-4a51-ac4d-70fba81710bb"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2d600008-95e6-47a0-9da3-8f592b9f1e9c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cd3ab40c-8e8d-44a4-8ef7-a57d54efd588"
+                  name="ImageSource"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f7b0976a-ca3a-49e3-9475-8fa3bfe50056"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="197e75a4-9156-4d74-a5f7-3bfc8bf8d126"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="596211a0-c080-4ea5-982a-0e47500c207f"
+            isDerived="false"
+            sourceEndRoleName="DataItemViewModel"
+            targetEndRoleName="ImageThumbnailSource"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d41d9b23-dc6d-4471-aef1-7fa2bc6c6b55"
+              LastKnownName="Uri"
+              LastKnownLocation="Package1_0826.uml" />
+            <description>Property ImageThumbnailSource references type Uri.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="92cf3d86-64de-443f-8e9e-f8c1fd6524f0"
+                  name="DataItemViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f469acc8-95a7-4a5f-a269-a02758819814"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4a9307ee-feec-4b7c-aaea-768e7557fde3"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b6d8ce69-3875-4df1-9e9f-872627e7a6ab"
+                  name="ImageThumbnailSource"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="847605c6-263b-4613-9ce1-14f8aa82baa4"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="853a77d8-000a-47cb-8424-3947aa5e2977"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="e815cbdb-d9a2-4297-9ec1-edcdd4fef1ae"
+            name="Group"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7f0598d2-361f-4438-b9cb-5048bde02a40"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3DGroup"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3a09852e-a93d-46b5-8c21-f50cf34a8240"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71047555-e167-4075-bb95-27a74804e5c5">
+                    <propertyInstance
+                      Id="8f2a3f8c-bc4f-4731-b741-e79512dcab79"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ef91f1f-faff-4eb4-ac70-d984d325ac5c">
+                    <propertyInstance
+                      Id="aeb08549-089a-491a-8e01-4a9bade01c62"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95228545-1c69-4846-9722-7b5175553513">
+                    <propertyInstance
+                      Id="e98787b1-7ad4-4086-82a2-2073ec69ca2b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="017f14aa-99cf-4dce-b508-39eceb0aaac5">
+                    <propertyInstance
+                      Id="480644f6-5861-42f0-8039-37d3a087955c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a248262b-1bda-4e2c-857f-26af8c3cca94">
+                    <propertyInstance
+                      Id="9171d5c7-5680-4687-9e35-f5416a2cfd72"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c473d2fd-5f11-45d8-8215-2f3200a9bfad">
+                    <propertyInstance
+                      Id="1f3b9e32-77b7-4b93-88ff-5d6251aa529e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e3cf1c4-3920-4f2d-8e83-dfa7c89e58cc">
+                    <propertyInstance
+                      Id="d6ecc793-2507-4b56-9791-815b0e5b2769"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c163a41d-55e3-4194-88e2-59fd4486d18d"
+            name="ImageSource"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0fa74f40-3d32-4f20-a854-c67fcce4f89a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3DImageSource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7d3b0e79-de7c-4334-82b3-2c98b46e2f70"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d520320-c46b-43c8-a302-13ee9c7454d7">
+                    <propertyInstance
+                      Id="4dd59413-8a68-4d56-9c4e-e27064af4d9d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b42e0bd-f793-44ab-b7aa-db06c20c156f">
+                    <propertyInstance
+                      Id="0c0ea252-a796-47fc-ab9b-44ca3439830f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7c63f19-3a76-45dd-9fd5-2e451b29ee6d">
+                    <propertyInstance
+                      Id="ea3510aa-3cfc-48a1-b3ab-89504c14eac6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4f04d5e-fd4b-4e1d-b807-ad2ef9aab92c">
+                    <propertyInstance
+                      Id="5c0937cd-6be7-4ae0-a299-5704bcff4f31"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0adeed9e-0a95-477f-9da0-aaf42936c779">
+                    <propertyInstance
+                      Id="7a37d443-d461-41aa-94c5-dbcfc7f8c9c7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="353122fe-408a-482c-a0db-5b78e8437e13">
+                    <propertyInstance
+                      Id="290fcc6f-898a-4651-be46-bb06fc137c9e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58bb2305-81aa-4d64-81dd-7e2a2fc59898">
+                    <propertyInstance
+                      Id="b45edade-29ec-4abc-9603-f0781e464aca"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d41d9b23-dc6d-4471-aef1-7fa2bc6c6b55"
+                LastKnownName="Uri"
+                LastKnownLocation="Package1_0826.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dc506131-7b93-4fae-956a-ea319dbb1583"
+            name="ImageThumbnailSource"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2adeff9b-8022-4afd-bafd-1dce48572873"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3DImageThumbnailSource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d6d06b7c-ec6a-4362-9ee8-7b4c2170c925"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="699304b7-2670-45ff-8117-30a5d63a3103">
+                    <propertyInstance
+                      Id="9e695360-21e3-4f4a-824b-da2de9c503e7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6789272c-261e-483b-b619-81cea335a9f0">
+                    <propertyInstance
+                      Id="6a9bb8a6-5ab4-4779-969e-32410e739075"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="140b1067-ca63-4956-9eb5-539b6fe532e5">
+                    <propertyInstance
+                      Id="4f6ada90-0a3e-4e3e-8121-59fbdc5ae947"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3db75965-458a-4b65-a224-87afa1673295">
+                    <propertyInstance
+                      Id="52dbdc2d-59e2-4474-859a-a66ae2e4f8b1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1dab2c2d-1764-4cb5-9080-0cad5243c6aa">
+                    <propertyInstance
+                      Id="d928abb0-094f-44c1-83b0-9dd4f2b14326"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0b23da0-15dc-4539-bcaf-5d0f651ee194">
+                    <propertyInstance
+                      Id="08811f20-9a8f-4f5e-90b2-b28945632204"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0f03355-d750-4765-82e9-35ec484c8cdf">
+                    <propertyInstance
+                      Id="7ca2b05f-b46d-4392-9049-20bd1c4ff15b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d41d9b23-dc6d-4471-aef1-7fa2bc6c6b55"
+                LastKnownName="Uri"
+                LastKnownLocation="Package1_0826.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d68e01da-5eb4-4ea0-bc4c-890b1cc22e6e"
+            name="Information"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c3276493-921a-4444-8e05-6d82befbdbb3"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3DInformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ea017c9a-995f-4d61-acd1-6443966cca7f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d53e45bd-5f84-4a34-97a1-800600c07f36">
+                    <propertyInstance
+                      Id="e9f3158b-6490-443f-8a9c-38e5f1f93cad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eef0111c-4b34-4088-9f05-d18f164c49cb">
+                    <propertyInstance
+                      Id="5e2f1e95-e1ee-4c63-a6d3-f325b30b26ae"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f5e9112-2b83-4a7d-a176-a9ef216f49bb">
+                    <propertyInstance
+                      Id="148b76fe-cf42-48a7-8cc9-4c8e6d837598"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4edbc010-75cb-41dd-8eac-c9ea33048440">
+                    <propertyInstance
+                      Id="03aa1ccf-215b-4ffe-9748-b429831fd7d6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="075afc10-b995-42cf-911b-93f9071e4637">
+                    <propertyInstance
+                      Id="70368ad3-0ec6-47ef-84d5-22da830b8f21"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f24e576-1f43-4b0d-afa0-5a3a48866f6e">
+                    <propertyInstance
+                      Id="85a4f9f2-4033-418d-9d47-06aa5e81294a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="204022f8-1849-4c29-9fa5-06f30c0c3690">
+                    <propertyInstance
+                      Id="625a49b7-e105-49fc-aa14-c3b5ac00d656"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="58804bc7-db48-4f54-86f5-c90c8be063db"
+            name="Title"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="08ca1c07-f063-4070-9a2e-618870080102"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3DTitle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="be9eb274-8a2f-4e4b-9ae2-b0e6f4c9acf6"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17af975b-5dc3-4555-a596-27154dff3275">
+                    <propertyInstance
+                      Id="e4468186-f111-422f-ac75-9a6cbbbf0702"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca562ebf-aabf-41a2-824e-0a6225aa3942">
+                    <propertyInstance
+                      Id="70909701-ac8e-4aed-be3e-9b0e59694693"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab9f5c6d-5c6a-4282-9091-bff6da50193b">
+                    <propertyInstance
+                      Id="1f0e3158-1e36-4e72-a28b-d5a28eb5feb5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8e35601-e972-4398-8d08-978782980747">
+                    <propertyInstance
+                      Id="589d221a-dbc3-4c19-b423-d6d3e500bef8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20d15aa6-e583-40df-808b-c6edd7983b40">
+                    <propertyInstance
+                      Id="af9ee5ea-a3b9-4739-8dff-f202fa37604d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f0ef28d-c8d0-4277-a99c-d8adf22d3fce">
+                    <propertyInstance
+                      Id="798176c2-991f-4ac9-9f2e-cb15046ce5c2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ee6ce6b-e8b2-4aa9-9429-5c28cdf71254">
+                    <propertyInstance
+                      Id="6b5ebb08-6fff-4eb6-a716-09f8999c8bd3"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9643e84a-080a-41e2-a312-2bd5801d8550"
+            name="group"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="281821af-2869-4bc7-a21e-58dc63d01efa"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3Dgroup"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dee3f95f-ea32-4a8e-9259-32e43e99f25f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8046e062-1eb2-4763-8ba9-7a298a6c4ce7">
+                    <propertyInstance
+                      Id="a1a773a7-ec32-4b9e-aa1c-fc220fea6e79"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fcff42b-3738-472f-bcf3-7c7c0eb8e031">
+                    <propertyInstance
+                      Id="1daf0a00-093d-44e6-94f9-ca861c9ae85d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d7efd85-1eb1-4ba0-a32f-166912458b5c">
+                    <propertyInstance
+                      Id="b258803a-2e02-4484-acd5-70f6a93c94d8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bd7f1f5-96a4-4dba-95d2-83c2d0dd436b">
+                    <propertyInstance
+                      Id="34586bdd-180f-41ab-92f6-6473ec128bf2"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="678c0129-88f2-4e01-b4f6-f3492770c84d">
+                    <propertyInstance
+                      Id="c0d279be-0bd4-4c65-b6e5-58691a5c9354"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5ca31ad3-962b-4e8f-9e85-83916a5269cf"
+            name="imageSource"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4cac32c8-2d26-4fe7-b53e-524224416301"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3DimageSource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a48a7b36-0178-4287-a4c7-d2d69b536e57"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d532bbe1-1087-4a34-b91a-f22d6a0a523c">
+                    <propertyInstance
+                      Id="5abe6dea-5534-4e51-ad78-fbd757129776"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2e81ec8-0421-42ae-b4b3-f5bf015bb235">
+                    <propertyInstance
+                      Id="33adfe5f-755e-4824-aa6e-f4145250dc3b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99efb670-c2ea-4d22-88d7-e3f543979d7c">
+                    <propertyInstance
+                      Id="400768f8-4551-4ff0-a7d4-4604094bc063"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2270395-496b-46a5-972c-95a28b0610bf">
+                    <propertyInstance
+                      Id="7d848cbf-1c7d-49d8-afce-758cb7f07cb6"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="346d2b18-0fee-4e3e-b505-05d532a75a7a">
+                    <propertyInstance
+                      Id="49a5e6e1-81a6-45e1-b8db-eeb23f9c68fc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d41d9b23-dc6d-4471-aef1-7fa2bc6c6b55"
+                LastKnownName="Uri"
+                LastKnownLocation="Package1_0826.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7d900de4-4502-47a6-a346-3b3f9f2b131b"
+            name="imageThumbnailSource"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="dcf7e9e6-0557-4939-b24e-16145172d418"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3DimageThumbnailSource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b63bf47f-e4bd-4138-8b6f-dc1f20aca51f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40cbaccd-c4e8-4016-b7ea-6b297afb65c2">
+                    <propertyInstance
+                      Id="2c6a1605-c624-4c3c-a6f1-71df12a550d9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bca08a0-8b83-4244-aba0-7e0d4537cd35">
+                    <propertyInstance
+                      Id="ffc07824-b259-43b4-94d1-961bb50dd371"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37e16c60-d71c-4486-8f6e-055f8d8b0a3b">
+                    <propertyInstance
+                      Id="45d464a0-a46e-453d-813b-3e75a0945869"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c4cbd7e-0c71-4c22-b36a-d182799af78d">
+                    <propertyInstance
+                      Id="55458ded-76d7-499c-ae00-8ecf75c59956"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed09ce47-7564-4797-9384-8e7799cf53bf">
+                    <propertyInstance
+                      Id="945a051e-49f2-4fd2-9963-97bdfa1ddc0e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d41d9b23-dc6d-4471-aef1-7fa2bc6c6b55"
+                LastKnownName="Uri"
+                LastKnownLocation="Package1_0826.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2481bd9d-f334-4c43-8ec5-1f1d425442d4"
+            name="information"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8086499b-2e1e-4d55-b5fb-96af21ee3e5f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3Dinformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b598856b-6b4f-4f36-a138-82cf32af5f67"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b585a7c-e878-41a8-8cd7-18ee5c12b9b7">
+                    <propertyInstance
+                      Id="fbe3eb38-5d88-4fcb-aba8-733392f29579"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57c80a21-ee62-4306-bcaf-ff667c9f7a70">
+                    <propertyInstance
+                      Id="38798872-639f-44f7-906a-0791313623d7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e883d531-b065-4e28-9d70-4d00784474ee">
+                    <propertyInstance
+                      Id="a2fda13e-f352-4aad-a99c-d274f224787b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4d954ad-3c5a-49ef-a920-44c3bb917cef">
+                    <propertyInstance
+                      Id="c88d23fc-e855-4311-9de9-a6a632ff0aa1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eda4d0e4-92ad-4f52-95cd-21dafd1df579">
+                    <propertyInstance
+                      Id="f329d5d1-11a1-4ab0-ba9d-3b68423081bd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7012fab9-6ee2-4d03-827b-71b3df7a2856"
+            name="title"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c3871d2c-54f3-475f-ad7b-4eb5cc8adc8e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3Dtitle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="763d94be-3211-4cbc-a1d9-24ab3a0430f0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3eeae038-c1ff-4c8a-8d82-dcd9d0eb551a">
+                    <propertyInstance
+                      Id="227af73a-3a92-4e32-b526-d254d57d90d8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="989f0bee-6e1a-47a6-a2e0-ba41f6546198">
+                    <propertyInstance
+                      Id="1e5d92c6-10dd-4c56-81b8-013265aaee39"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2cae9a8-40ea-4623-9dcb-c6168b0b1297">
+                    <propertyInstance
+                      Id="d525a91b-4db1-46be-9583-e8d9feaada99"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4a7486e-ccf1-42a3-b45a-c5d51abf9f17">
+                    <propertyInstance
+                      Id="3897f6af-3a38-4be8-acbb-ad07b35df604"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30788606-ff1a-48a2-88b6-5080f6fcf4a3">
+                    <propertyInstance
+                      Id="ef81037b-eb10-4cbc-ba70-cabddcc19987"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="da624d5a-9f7e-45fb-820a-84809ba4d67f"
+            name="Equals"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="59a56279-28d4-4476-ada8-223480247e1c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3D(Name%3DEquals OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="60c80459-29cb-4b7d-83c4-2626021ed8c5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18b894f0-ce2b-4441-9d22-ee227fdb667f">
+                    <propertyInstance
+                      Id="e17de590-d0c1-4f44-a652-840ae6096b81"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0af7e860-fc5f-4858-a10c-15eef00de807">
+                    <propertyInstance
+                      Id="ed7b5939-7eaf-46e7-9428-5dca9213b985"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b58ee3cc-3584-4824-ad02-512bbe90f89f">
+                    <propertyInstance
+                      Id="991e039c-351f-488c-aed7-4d98b4c77941"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39f7c88c-0328-497d-bf5f-cc8ffeab4a8e">
+                    <propertyInstance
+                      Id="6f6345c8-a02e-40c7-87d9-0fc7f77d5d5c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d1f5e8e-aee2-4f28-8239-e34980db0aa4">
+                    <propertyInstance
+                      Id="49f80b42-8572-4385-82b4-45d4f00068e9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f4b6c1f-ba9c-4f5c-ac1b-93121946a75a">
+                    <propertyInstance
+                      Id="e8ac63b7-e7f5-4ae8-8d09-d01b302108de"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8c51c5a9-49fe-4d47-b73a-37fc8dadf519"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="211159ba-376d-449e-813d-786b245cfc4c"
+                  name="obj"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8d683ca7-6948-4004-88b2-254fe302fb17"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3D(Name%3DEquals OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FWindowsPhone%2Fv8.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3Dobj"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e6f1a3a4-4836-49bc-aa68-b6f909aba80b"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_0826.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b3e0d5ba-8af5-450a-9d92-9e564fa16b6a"
+            name="DataItemViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f13ffc10-7c38-44d8-8777-6dbf85c48793"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="53ac78db-b718-4112-a331-8dba52648db4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d158ab08-4461-499c-b940-881fa38f56b4">
+                    <propertyInstance
+                      Id="aa1aac8f-1991-4bea-ad0d-4f311373bfea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54fa0019-1d42-4418-8781-b0e45d6d567f">
+                    <propertyInstance
+                      Id="591b86a2-2eaf-409c-9739-39a252da1ad8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19c040ad-2c99-4120-8303-bcd7fbdbfc79">
+                    <propertyInstance
+                      Id="73e32e70-a66d-45c2-89d4-95c1cbee1c73"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d853c28-6787-4f7f-a32e-c018bc7e65ae">
+                    <propertyInstance
+                      Id="9607e373-c519-48f9-aa8e-9b7c8936595d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb459945-1d23-470f-b975-00c4fb083ba3">
+                    <propertyInstance
+                      Id="2813e748-2278-4f44-a74a-c913264b5494"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f09c0e3d-5985-4151-b5bc-c434cc0a94ac">
+                    <propertyInstance
+                      Id="3e92e452-4b7b-4d67-b887-06c22dbc744e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e2f1a059-5895-4755-9642-f37f0cff3dfe"
+            name="GetHashCode"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5c414548-d613-43cc-bd63-9603f1553093"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3DGetHashCode"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1ce5f041-7c65-488b-bf51-6beaf7fbf5b9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f2bb3d5-5ec2-4885-b90b-4db0a6334d0b">
+                    <propertyInstance
+                      Id="657a9d44-62f4-4b9d-975b-f806b89cf94c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f17a2b9-8364-43af-b970-5bda94b705ba">
+                    <propertyInstance
+                      Id="2e5eeeed-d91b-4867-94e2-79f0def57e03"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a55d08e-7002-47c6-b3d2-5c90ae1d3fbe">
+                    <propertyInstance
+                      Id="36df8ceb-0c83-435f-afc3-9071dcd54601"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1ec503f-c14c-4c76-b542-89cfe9005baf">
+                    <propertyInstance
+                      Id="fc815862-c12d-4a5b-b366-9e2094f6c86d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5184f863-549b-4598-a432-a7f21f3b7d89">
+                    <propertyInstance
+                      Id="68edb21b-cbf9-482e-911f-3a47a956d51d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0311ad0-24a8-4899-ad38-7df5e64bb976">
+                    <propertyInstance
+                      Id="68864268-ff25-4a8c-9e88-e790a281fc26"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2a5b2f51-ce21-40f7-a24a-ee608150aa61"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7dc58a38-d5e1-4b7a-9fc6-ecb7f3843c2b"
+            name="ToString"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="215d142b-c91e-442b-b37f-d665cc554535"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DDataItemViewModel Member%3DToString"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="42fff22f-046f-444b-a9eb-2d791b70dc79"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67873351-da8d-4fdb-9ebb-669e035fa6d9">
+                    <propertyInstance
+                      Id="2c7695e8-08ea-4a2b-9fce-cb8e9959aba8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9308b383-b663-4cc5-b887-75866af98d56">
+                    <propertyInstance
+                      Id="b021378f-bf07-43bb-86f6-29bb09f441ca"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7c01333-49c4-4e8a-a52a-4feb45eea0a3">
+                    <propertyInstance
+                      Id="0c141af1-9747-4f0e-a04d-6f9ea9621fb2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68a875d9-10c3-4452-bd68-daa0ecc5e90c">
+                    <propertyInstance
+                      Id="ac169dfa-61c0-45a7-938e-c9ed2d39874f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f136c258-67f0-4726-a9ba-39a272721f28">
+                    <propertyInstance
+                      Id="e78a97be-c9a2-464f-8656-a2eb68546dfd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37b40ece-3ba0-4324-bdbb-181f787ad2b3">
+                    <propertyInstance
+                      Id="b71ce940-b5dc-4616-a898-9cb5d72c83bb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ad89560e-f5d5-4129-9205-8c9b4898d4f1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="09c7e191-b97a-4f9b-bc0d-d4c89efc8475"
+        name="HierarchicalDataViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8565eae6-c535-4d6f-b5df-14c1edd56cd0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DHierarchicalDataViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c4d0fa98-33ea-4198-8eb4-ac5f3d16de4c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="35253105-dea1-41bf-94f5-eb96a282c4c8">
+                <propertyInstance
+                  Id="b6737e92-d0c5-4a43-bb52-e5dec44b49f3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e82ad8f-7144-45ad-b47f-7122437fc1a9">
+                <propertyInstance
+                  Id="ac411056-286c-443f-8fa4-f06a44f7f71b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c80ecf1a-7068-4d60-a0e6-4019df22bc5c">
+                <propertyInstance
+                  Id="82f92b9a-0889-4a2e-8294-82a2e391566e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e6897e76-501f-432e-ae17-60923f2bc026">
+                <propertyInstance
+                  Id="968eb81a-2d36-4774-954c-1c10e230b0c3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4298ccf4-497e-4bb5-8fe7-e56a071a7ab6">
+                <propertyInstance
+                  Id="272f00ce-2268-4e27-ae2f-3c9fe709d8dc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="b6b74a9e-4753-485d-a7b1-33d59b05b9ca"
+            isSubstitutable="false">
+            <classMoniker
+              Id="59d0ac25-2568-41fe-bad4-17a2c6c686c0"
+              LastKnownName="ViewModelBase"
+              LastKnownLocation="Package1_0225.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="e32cd7bd-3b4f-4c1e-b1fc-3f22e7a80cc8"
+            isDerived="false"
+            sourceEndRoleName="HierarchicalDataViewModel"
+            targetEndRoleName="Items"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="93ef72f1-8947-46fa-b765-2008b82de0bf"
+              LastKnownName="ObservableCollection&lt;CollectionDataItemViewModel‎&gt;"
+              LastKnownLocation="Package2_0225.uml" />
+            <description>Property Items references type ObservableCollection&lt;CollectionDataItemViewModel‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1d442a4a-cbc9-4297-b773-d0f1c9a32a27"
+                  name="HierarchicalDataViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="947eb3ce-e9a6-41c3-a338-d98094f01704"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ba44c590-4436-4376-951b-21ae68e4a442"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="64f00592-5ff9-4c06-ae78-d980af0827bf"
+                  name="Items"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="cf13cb1d-419c-4363-92db-f7b41484b32e"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c31a46c0-2eb1-41c5-a435-c2f385230974"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="29c0d0cf-ff52-4a39-9b78-f136cd39b7ff"
+            name="Items"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="47cfc2b1-acfe-4375-b484-fd8e76ebbec6"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DHierarchicalDataViewModel Member%3DItems"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="628ac7b6-7c64-47dc-b219-17d0275a16ee"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="922bd91a-0fa9-4e59-9fa0-3bf6de6de5a4">
+                    <propertyInstance
+                      Id="b62f7dbc-539f-4fe4-b763-07328164789a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="876b0034-963b-4096-ab5c-3965d01d22f0">
+                    <propertyInstance
+                      Id="e41bb46f-066b-476a-92e0-b2cd2351d51f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1d779db-cabb-477e-9789-3c93ba1c9647">
+                    <propertyInstance
+                      Id="753eea2c-f8a3-46c5-b2a9-938bbebe9480"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7ead68c-da8a-4d8b-8cc9-f7c686cfa6de">
+                    <propertyInstance
+                      Id="5c22f2c6-052f-4f92-9368-c5f70e09889d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6b6b38d-b215-46c9-96d7-24d716035f9b">
+                    <propertyInstance
+                      Id="b76caae0-d982-499b-8bed-ad94d4bf86b3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56c3ac18-048e-46c4-bd7c-fd96940f92ae">
+                    <propertyInstance
+                      Id="5dcafde8-3e54-4d58-a44b-0685ede7b8b1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ea71b59-05b9-4e10-9b51-a0f0f228c2dd">
+                    <propertyInstance
+                      Id="dca2bf3f-682d-43ab-8517-f4ff269578a1"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="93ef72f1-8947-46fa-b765-2008b82de0bf"
+                LastKnownName="ObservableCollection&lt;CollectionDataItemViewModel‎&gt;"
+                LastKnownLocation="Package2_0225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dbabe09b-bb07-45a3-87a9-d654aa01008c"
+            name="items"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f94ccff9-3ec5-401d-8dc9-9cf9f8c86814"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DHierarchicalDataViewModel Member%3Ditems"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a0d639cd-e363-409c-aff9-3fab1238eceb"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0aee0ec0-dac7-4830-8a82-b6035707abe1">
+                    <propertyInstance
+                      Id="386abcf0-4e81-431d-86d6-b7233a6d52f7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4eacad4d-83aa-4f9a-be5e-2ac523f9aba0">
+                    <propertyInstance
+                      Id="e858c400-ee39-4093-95d3-68fe811f5341"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ad440bc-7e0c-4231-8fcb-79052780481d">
+                    <propertyInstance
+                      Id="8d99b81d-d219-4fba-9fe1-981771b2c940"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f02e5f8c-1998-4b42-8ad6-62a6d79078cd">
+                    <propertyInstance
+                      Id="463822c4-5270-496b-85ee-5bcdb0dc2476"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd4f57cd-391e-4325-88e7-c8134e9f9561">
+                    <propertyInstance
+                      Id="71dbf790-31d0-44ed-ac8a-878c928b81a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="93ef72f1-8947-46fa-b765-2008b82de0bf"
+                LastKnownName="ObservableCollection&lt;CollectionDataItemViewModel‎&gt;"
+                LastKnownLocation="Package2_0225.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="471e39f4-e300-4e6b-a7e5-99aebe2bd3cd"
+            name="HierarchicalDataViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1e76f41e-78f8-43b8-89af-feac0ec77519"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DHierarchicalDataViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c85ed70f-f09c-4f47-96b0-e6f595c08a70"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37dc21af-35df-4e48-a509-581a5d3afa32">
+                    <propertyInstance
+                      Id="3fb68844-3b26-436c-9dd2-6890c2287597"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35bf07a8-f9cf-41f4-a9ee-c5d79c447099">
+                    <propertyInstance
+                      Id="d7899af7-0a8f-4521-b14d-1fc10711128a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62423881-213b-45da-9f67-9a721dee09a3">
+                    <propertyInstance
+                      Id="aaf99a7a-d853-4be9-bf3f-528faa70f3ea"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b16d489-aceb-4a62-b796-edeeac70e1c3">
+                    <propertyInstance
+                      Id="13fc58e2-eb5e-4737-8a10-354340d98fad"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="556f0082-6a5e-4c3f-a9b9-490226df2248">
+                    <propertyInstance
+                      Id="49e5be5e-42c3-4fdc-a009-ecdb4f07d927"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39200dbf-bec2-4dc5-8205-2876e4dedbc7">
+                    <propertyInstance
+                      Id="f6f6296f-cbf5-47f7-807d-956cac08521e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="662feab0-96d0-4189-9b99-3b0d27883adc"
+            name="InitializeItems"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9a56c717-cfcc-4968-9a3c-8c1f3d60a6d1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FPersonaHealthTest%2FBin%2Fx86%2FDebug%2FPersonaHealthTest.dll&quot; Namespace%3DPersonaHealthTest.ViewModels Type%3DHierarchicalDataViewModel Member%3DInitializeItems"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f3777193-a5aa-4e30-ba6e-5c84118dee3a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68e2dea7-ce67-449c-a3be-491be53cfe56">
+                    <propertyInstance
+                      Id="cb7150d5-db4c-4fad-a60b-864645312c51"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdc290ca-7db7-4dfb-9dc4-e08f033f03e3">
+                    <propertyInstance
+                      Id="4f11b992-6d45-4393-bbe0-ad57d7437c03"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b696859-42d4-45ab-b525-2a75392c1625">
+                    <propertyInstance
+                      Id="3402f7c4-333b-4cc9-b571-3693eea75938"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e79724fa-cdf9-42f7-a27f-a35b8fa80691">
+                    <propertyInstance
+                      Id="cf558e7b-524d-4a3e-b747-565e1e8fa6f8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="592a97e5-e182-4d71-af0a-8b207918c70b">
+                    <propertyInstance
+                      Id="195a4c4d-a90c-4d0b-9f6c-ce7b564888ae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75a4c068-c277-4fd3-a8fb-d79a3ef98fe4">
+                    <propertyInstance
+                      Id="97775aac-797a-46ac-987e-3606101c3a94"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

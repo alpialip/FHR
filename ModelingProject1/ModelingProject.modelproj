@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92146682-a144-4a47-beb3-9bd869315ec2}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>ModelingProject</Name>
+    <RootNamespace>ModelingProject1</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="ListOfDoctors.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ListOfDoctors.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ListOfDoctors.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ListofIllnesses.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ListofIllnesses.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ListofIllnesses.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package10_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package11_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package12_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package13_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package14_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package15_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package16_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package17_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package18_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_0225.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_0225.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_0225.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_0225.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_0225.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package7_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package8_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package9_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0225.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0826.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AppXaml.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AppXaml.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>AppXaml.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="HVIntroPage.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HVIntroPage.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>HVIntroPage.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="HVWebPage.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HVWebPage.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>HVWebPage.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="InputSymptom.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InputSymptom.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>InputSymptom.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="MainPage.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MainPage.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MainPage.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="MainPanorama.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MainPanorama.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MainPanorama.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="MVVM.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MVVM.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>MVVM.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="PersonalInfo.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PersonalInfo.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>PersonalInfo.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="PivotInfo.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PivotInfo.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>PivotInfo.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="HVMobilePhone.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HVMobilePhone.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>HVMobilePhone.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="HealthVaultApp.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HealthVaultApp.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>HealthVaultApp.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Registration.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Registration.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Registration.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="CurrentMedication.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CurrentMedication.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>CurrentMedication.activitydiagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\ModelingProject1.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="LayerDiagram1.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="LayerDiagram1.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="LayerDiagram1.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+</Project>

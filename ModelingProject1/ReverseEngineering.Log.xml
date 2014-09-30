@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-01-16T02:25:57" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Microsoft' -  (Package)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Microsoft::Phone' -  (Package)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Microsoft::Phone::Controls' -  (Package)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth' -  (Package)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth::ListOfDoctors' -  (Class)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth::ListOfDoctors::_contentLoaded' -  (Property)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth::ListOfDoctors::ApplicationTitle' -  (Property)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth::ListOfDoctors::ContentPanel' -  (Property)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth::ListOfDoctors::InitializeComponent' -  (Operation)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth::ListOfDoctors::LayoutRoot' -  (Property)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth::ListOfDoctors::ListOfDoctors' -  (Operation)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth::ListOfDoctors::PageTitle' -  (Property)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PersonaHealth::ListOfDoctors::TitlePanel' -  (Property)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows' -  (Package)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Controls' -  (Package)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Controls::Grid' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Controls::StackPanel' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Controls::TextBlock' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::ListOfDoctors to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::PivotInfo to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::Page1 to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::ListOfIllnesses to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::ViewAnalysis to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::MainPanoramaPage to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::MainPage to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::HealthVaultWebPage to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::HVIntroPage to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PersonaHealth::Page2 to ModelingProject1::Microsoft::Phone::Controls::PhoneApplicationPage (Generalization)" />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="High" Text="(4) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-01-16T02:25:58" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

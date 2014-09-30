@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="fcacc04c-e1d9-4ae5-b72d-4bb8156940ce"
+  name="Input"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="327d9f40-c64d-434f-9a02-b2f1220d1ec0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Windows.Input"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="7fdaad67-5f40-4bdd-a08c-72948ec16f73"
+        name="GestureEventArgs"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5d70c701-2931-4f75-8f91-3ae39dafecab"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7d56ab9b-6534-43bb-83e5-0c96a911aeda"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9018eb6-ad86-410f-8a96-d24400dcf0c4">
+                <propertyInstance
+                  Id="73efaca6-a771-4d3c-8346-8f874466962b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58e0425a-cfae-40bb-adfe-caa38ab7b4b1">
+                <propertyInstance
+                  Id="a43d266a-6227-41c8-bf71-c50e1e6c498f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9bb26b5-cb3f-420a-9927-f9d18352a34f">
+                <propertyInstance
+                  Id="2ab3ed9f-483b-43c1-871d-68698a6b2116"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a90046a6-007c-47f3-b574-06c1ae03ef10">
+                <propertyInstance
+                  Id="a3f2d893-c7d8-436c-9d44-73163c9bd550"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f0f6533c-8ca4-46d8-bb73-1d8e1bded98e">
+                <propertyInstance
+                  Id="d047652d-187c-4bf0-b594-e5c7bf0733c8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="84d991ae-8483-45da-9216-c947b0378b39"
+            isSubstitutable="false">
+            <classMoniker
+              Id="e50ca5f0-fdda-4963-a3f1-ed05d39425f4"
+              LastKnownName="RoutedEventArgs"
+              LastKnownLocation="Package5_0826.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
