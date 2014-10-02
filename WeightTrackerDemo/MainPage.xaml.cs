@@ -35,7 +35,7 @@ namespace PersonaHealth
     {
         public const string SettingsFilename = "Settings.xml";
         bool _addingRecord;
-
+         
         // Constructor
         public MainPage()
         {
