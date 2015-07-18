@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
+  <logicalClassDesignerModelMoniker Id="d106f8f8-3a27-44ff-a12b-2797d1eba286" />
+  <nestedChildShapes>
+    <classShape Id="7bdf8c76-7a92-4943-b4b8-4cf8e977cee3" absoluteBounds="3.5, 1.25, 4.125, 2.6292418247461313" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="f3d25f66-9a39-4935-84c7-f9c3d2238101" LastKnownName="HealthVaultWebPage" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="8b836ea1-6e01-42fa-badd-caab0cacb673" absoluteBounds="3.515, 1.7653356393178306, 4.0950000000000006, 1.0019530927141505" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="289a25d3-8cc5-485d-bd9f-38ae6eb2e48a" absoluteBounds="3.515, 2.7772887320319812, 4.0950000000000006, 1.0019530927141507" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

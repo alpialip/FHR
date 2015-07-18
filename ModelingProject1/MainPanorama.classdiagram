@@ -1,0 +1,1847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="539742d1-7fef-439d-a432-0bcd6f0be22d" name="UMLClassDiagram1" linkedPackageId="44c95be4-b554-4391-aa1b-b1b81488ff79" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="33dbba94-d173-4cb5-a0f7-cfb39da8e0ea">
+      <profileInstance Id="2eaf5c3b-24d4-4fe4-bbd9-86e4381cc690" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="672aab43-6010-4dae-a3a4-a708f9123686">
+      <profileInstance Id="0bb6c391-40b4-4d02-9a8d-129e8f3b6c1d" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2fc46b57-08ad-4d7f-afe7-4462bb9a713c">
+      <profileInstance Id="a605113f-e255-457b-a716-f20b4ad53b7e" name="CSharpProfile">
+        <elementDefinition Id="c51f4153-6113-4211-8d40-e43c731d85ed" />
+      </profileInstance>
+      <elementDefinition Id="afad3b26-4a68-4332-8001-56f43f6f22ed" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f0d32b45-b424-4c1b-a603-8dddbddb92a0" name="MainPanoramaPage" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="df65055d-1bda-4220-9d5a-68397f9404b5" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage" tag="ViewCode">
+            <elementDefinition Id="1ec36d49-fd2c-4b27-a465-aaced9e9b017" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="65d436a1-dcbe-4970-8098-3ed3fdd8e2d6" name="class" profile="CSharpProfile">
+            <elementDefinition Id="98065a22-aad3-4fda-a2d3-abe6d1fd4ec2" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="60dd469f-200c-4de4-947d-1ce338ec3087">
+                <propertyInstance Id="9c826a1b-26fb-4432-8e7c-6d6bc855b463" name="ClrAttributes">
+                  <elementDefinition Id="29af6d98-e033-4d85-8737-d302f16645dd" />
+                </propertyInstance>
+                <elementDefinition Id="83ca4e0a-4003-4532-8b60-3b695eaff816" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ece0a5e4-047b-411e-a051-3c08c7c38029">
+                <propertyInstance Id="49f5c9e0-6b41-4229-935f-42fb56a94114" name="IsPartial" value="false">
+                  <elementDefinition Id="acd91160-6d13-4ce6-a026-93f72a2d1356" />
+                </propertyInstance>
+                <elementDefinition Id="d3b820af-c54f-4c71-a8e6-12a95a411e74" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="dbc55f81-391f-4349-a4b5-0795bb5cb51f">
+                <propertyInstance Id="292f8bb4-ebf0-4131-8d1b-b9b54a44eeb1" name="IsStatic" value="False">
+                  <elementDefinition Id="01ea48ba-4be0-4752-8cb0-2343669f0185" />
+                </propertyInstance>
+                <elementDefinition Id="6fa8ec3e-a71d-409d-bc7a-14405b5dcc92" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9c8cca3a-d0dc-4b20-b644-901e2d0a2db3">
+                <propertyInstance Id="892cfc12-3c35-4a43-a069-9aa02b08e3d3" name="IsUnsafe" value="false">
+                  <elementDefinition Id="1b8c07c3-3488-4890-99ce-5e8349e284fa" />
+                </propertyInstance>
+                <elementDefinition Id="4dfe3a74-0d53-4b7d-9d28-0ca00e781bdb" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="0c34ceee-928b-4420-8a5b-c40606df6dbb">
+                <propertyInstance Id="cc130d1b-dc8b-4e59-86fb-ee72fba5ad45" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="338534f7-3334-4db0-8611-6165cd4d2562" />
+                </propertyInstance>
+                <elementDefinition Id="9800bb61-6a7c-48b2-8a56-50218c4918e4" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="ddc0426b-bb7c-4283-85ce-3fbb96fc804a" />
+        <ownedAttributesInternal>
+          <property Id="f7f5a973-c1e1-4bd7-81df-424250da7b60" name="LayoutRoot" visibility="Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="f7f6d129-f589-4cb1-b929-fa4ebfa8725b" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3DLayoutRoot" tag="ViewCode">
+                <elementDefinition Id="23bca055-0e45-46b7-a3e5-72cf17587f06" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="35f2c8a2-166b-4b3e-8f3e-674ef91dca2a" name="field" profile="CSharpProfile">
+                <elementDefinition Id="77383297-8e00-4801-a089-70dafef97eb4" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0cd94056-8a49-4d38-b786-6eabae32a8cf">
+                    <propertyInstance Id="e3eb3fd7-cb6a-416f-a90e-65bb7f20b2f8" name="ClrAttributes">
+                      <elementDefinition Id="2759704f-520e-4a75-9bc2-410e6d754e8c" />
+                    </propertyInstance>
+                    <elementDefinition Id="90657ca8-aba3-4713-a401-87c3e18caaaa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b8e54006-30e2-4e7d-a3d0-27cb98520a97">
+                    <propertyInstance Id="9d2c048d-2cd1-4a01-aa32-7bb92f3b9013" name="IsConst" value="false">
+                      <elementDefinition Id="b6b9d94a-4258-44ef-a641-a25dbc3ea53d" />
+                    </propertyInstance>
+                    <elementDefinition Id="e36315b2-b220-4a74-90f6-558812a6377a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="49a34458-c201-44c4-80f4-70e79e9c8f40">
+                    <propertyInstance Id="18e706f5-e5d4-48f8-bf16-e48185952ca0" name="IsNullable" value="false">
+                      <elementDefinition Id="d88bada2-d2cf-45f5-8719-07d31b6e300a" />
+                    </propertyInstance>
+                    <elementDefinition Id="893c57f8-0f92-41a9-978f-22b5bdb418b6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2c6046b6-6127-49eb-b427-d3a5976d9886">
+                    <propertyInstance Id="40e4dc7d-cffd-4a1f-819b-c5be7a7c5731" name="IsVolatile" value="false">
+                      <elementDefinition Id="520fba28-754d-4699-9d49-0c1406f9db06" />
+                    </propertyInstance>
+                    <elementDefinition Id="9d0abe24-1e01-4a56-8cae-ad49fe47984b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="37799a0f-3359-4d33-93d9-99596e6cde6a">
+                    <propertyInstance Id="562c111d-eafa-408d-81d6-4e1fa4230005" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1d0826ee-1327-467f-a69c-b228af86e5df" />
+                    </propertyInstance>
+                    <elementDefinition Id="67254aa1-ab98-4ba1-b354-597cedc10459" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="000ec5ef-b29d-44a1-a809-6394bf93d420" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f58ccae5-b7b1-4000-80ca-e1f9ef1148a9" LastKnownName="Grid" />
+            </type_NamedElement>
+          </property>
+          <property Id="6090101a-3367-4353-b51e-a8390669e1f4" name="TitlePanel" visibility="Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="1f4858be-eb90-4940-a0fc-71ce47175aa3" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3DTitlePanel" tag="ViewCode">
+                <elementDefinition Id="46249e6f-5bee-4a5e-a726-77a7174190fa" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5c19c2c9-69f8-411e-a554-c37ef3f510c5" name="field" profile="CSharpProfile">
+                <elementDefinition Id="a6587901-bcc1-4a49-9e46-8143bd7d6b93" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="08e094dc-766f-4a3c-ada8-96252e4126ea">
+                    <propertyInstance Id="eec7d1c0-e30e-4814-ba91-28d4dc34884a" name="ClrAttributes">
+                      <elementDefinition Id="616881c5-136e-486d-b998-6eb82ebaa219" />
+                    </propertyInstance>
+                    <elementDefinition Id="b32214ed-f84a-423d-8574-630fb445f070" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1fa1a044-d63c-461c-a013-eb1a7408e13d">
+                    <propertyInstance Id="967a2afc-62e1-4204-8a62-15ec2e772cbe" name="IsConst" value="false">
+                      <elementDefinition Id="0927c66c-e01b-4d55-a6c0-9fad1997aec7" />
+                    </propertyInstance>
+                    <elementDefinition Id="379125a0-687a-400c-b808-b837ea6fe7e1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0e3dc9fe-5b54-45e9-8f3f-8c49504bcbeb">
+                    <propertyInstance Id="fd3d7afc-ecd8-4ad3-8541-9fd5948e7618" name="IsNullable" value="false">
+                      <elementDefinition Id="5529ab67-f63d-45ab-ae87-d8c931fc942d" />
+                    </propertyInstance>
+                    <elementDefinition Id="2ee44e46-bc68-459f-84c3-275089b6a281" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4a4851d3-9b50-4a0b-bc42-d198a3ba8430">
+                    <propertyInstance Id="3a1a6ba4-664e-43d1-8f30-aab6ea39734a" name="IsVolatile" value="false">
+                      <elementDefinition Id="844b1ae2-0b0e-4e53-a060-1626e198cb1f" />
+                    </propertyInstance>
+                    <elementDefinition Id="ebc327ce-8b03-4a53-af42-23ea9928ce16" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="aa2f22bb-d18e-4d7e-b957-7df3b15beff8">
+                    <propertyInstance Id="0bd73098-c20b-4d61-bf1d-13ed93db3ca5" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1fc7de8d-b82b-42b9-9560-e9b4c112d25f" />
+                    </propertyInstance>
+                    <elementDefinition Id="3a6918bb-e64f-4de6-9663-312295f6e133" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d71672c7-c0f1-4c28-8a32-a9420b0bf0df" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="aa569a30-a6c8-4927-b713-7643f09394ad" LastKnownName="StackPanel" />
+            </type_NamedElement>
+          </property>
+          <property Id="ab63a4f5-5407-47fb-9aa9-ce55b9227a14" name="c_RecordPanel" visibility="Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="0ee2ec84-c336-42bc-9303-56f0ea8e268e" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3Dc_RecordPanel" tag="ViewCode">
+                <elementDefinition Id="bad436fe-7468-45f5-b4f1-cb0044157be1" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="7907f30d-67df-4b9a-97d5-18542384d4e4" name="field" profile="CSharpProfile">
+                <elementDefinition Id="c70034bc-8462-4846-b74a-cdf8d9c7080b" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d0bd0122-123d-47de-9397-64ab741260bf">
+                    <propertyInstance Id="2b281823-7e6a-4b82-99bc-0762af6f08e8" name="ClrAttributes">
+                      <elementDefinition Id="2b4ad383-6aa1-418e-b63b-5639a6afef5f" />
+                    </propertyInstance>
+                    <elementDefinition Id="b7f6b31d-ee28-4c48-abbb-64cd25ac681d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0e6790a1-1ddc-45cf-9251-1922f7914ce6">
+                    <propertyInstance Id="e4378798-4947-4366-a45c-cf2deaae02d6" name="IsConst" value="false">
+                      <elementDefinition Id="852f1b7f-8de1-4f78-98b8-d794737127b4" />
+                    </propertyInstance>
+                    <elementDefinition Id="ce43e0a5-25af-48e5-82d0-9cb8803bbf25" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="22cf88cc-49fd-47ac-a6fa-adb3c49c7277">
+                    <propertyInstance Id="2db8e8e5-3e51-4055-aa75-b0824869e39f" name="IsNullable" value="false">
+                      <elementDefinition Id="c9e55cfa-a6fc-4cd4-a8b2-d6fdb4c34e29" />
+                    </propertyInstance>
+                    <elementDefinition Id="1210f3a3-bb0d-4bab-9ea9-b5144f6358ea" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="40f7f054-acfe-403b-96f8-d9add5013232">
+                    <propertyInstance Id="3c5f8c48-072b-41a6-aac5-3b1f31c0a6fa" name="IsVolatile" value="false">
+                      <elementDefinition Id="15bb93f4-311b-4491-b8b0-2220d336bd41" />
+                    </propertyInstance>
+                    <elementDefinition Id="48932c26-e9f2-4ad0-a5b1-7296fd12ce40" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e91239e1-4a4d-4640-8d76-efdd8b96b39c">
+                    <propertyInstance Id="73895a7e-209c-48f3-bb5b-8403047f666b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="550b767f-ec94-49b5-bf16-60bfdde65fe3" />
+                    </propertyInstance>
+                    <elementDefinition Id="d3e182dd-885a-4a1f-b131-9869adf416d4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="67423d8a-3fc4-45d6-9d93-0aaad1fbe666" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="aa569a30-a6c8-4927-b713-7643f09394ad" LastKnownName="StackPanel" />
+            </type_NamedElement>
+          </property>
+          <property Id="15460e4a-9849-4bef-947c-057eaa1d9d10" name="c_RecordButton" visibility="Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="05fe630c-ea33-4cdd-9c5e-a3883b370106" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3Dc_RecordButton" tag="ViewCode">
+                <elementDefinition Id="ba856140-bd08-4f30-8329-b02ffb668820" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="2fb6b367-69c6-4a5b-87cb-f685fbbb52aa" name="field" profile="CSharpProfile">
+                <elementDefinition Id="932611b6-1f28-42e0-be4d-206fee64d31f" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0ee81da9-7c23-4ee7-bd7a-51138df599d5">
+                    <propertyInstance Id="0564fbca-be4d-482a-9276-6dbced428e43" name="ClrAttributes">
+                      <elementDefinition Id="b6c9427b-8985-437d-ab47-321a91ca7a1b" />
+                    </propertyInstance>
+                    <elementDefinition Id="291215d0-59ca-4a5f-ad83-3e31aafd0f92" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="310d87da-1e87-4826-a930-e0d4e9eaac37">
+                    <propertyInstance Id="e7e0d3ba-387c-46c1-b15c-2de79a758327" name="IsConst" value="false">
+                      <elementDefinition Id="4ee2c728-0e1c-49ff-bf8b-d0701bd13b83" />
+                    </propertyInstance>
+                    <elementDefinition Id="50ce1a76-0b73-432c-af16-d4db7f1b154f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ee731d20-ca45-4bf0-a413-6ef08ed16e05">
+                    <propertyInstance Id="dee131fe-6539-48d8-aad4-16dea90786e5" name="IsNullable" value="false">
+                      <elementDefinition Id="bd20c1c7-38be-4c0f-bb6f-670ae353f2f9" />
+                    </propertyInstance>
+                    <elementDefinition Id="b9a29ad2-40dd-4d6a-8916-6a93c312190e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9f8f0af3-ffe9-45ab-bbc6-b58afd988ec4">
+                    <propertyInstance Id="9bdd8d9d-25b7-479b-9c00-ec27ad32cb59" name="IsVolatile" value="false">
+                      <elementDefinition Id="c3c30325-4206-4e05-9164-c4262bb34412" />
+                    </propertyInstance>
+                    <elementDefinition Id="b35a1a51-ed64-4d2d-8415-6d5655b393db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a85bf6e3-6c20-40a0-939d-057e4b270058">
+                    <propertyInstance Id="433d4a7b-3589-4375-aac7-db69d5483c18" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="117ab129-5d34-4b25-9525-d766b5e78233" />
+                    </propertyInstance>
+                    <elementDefinition Id="3dcd1392-e248-4b54-8285-addd63691787" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0304ec3a-13b0-4cd1-839b-b12af0d0032f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d9874543-5813-4fc0-ac63-fd5108e0a783" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="c919dd3d-4179-4922-bbcd-cf21828ce551" name="c_RecordImage" visibility="Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="207dad55-8a75-4f89-aa8b-f9da0160baa8" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3Dc_RecordImage" tag="ViewCode">
+                <elementDefinition Id="7cd0af4d-ce0d-472d-93d6-f894ad92f07e" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="12b36101-88a7-48e7-b2c3-7355db37e2dc" name="field" profile="CSharpProfile">
+                <elementDefinition Id="5460d2b5-9ec7-4882-ab98-ecdab75e0684" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b1ec2eb2-db27-4377-af1f-6174dd463af3">
+                    <propertyInstance Id="c0871cef-1bcd-46cd-9089-9b4809222610" name="ClrAttributes">
+                      <elementDefinition Id="1229d640-51ea-419a-931e-0e73af262ba2" />
+                    </propertyInstance>
+                    <elementDefinition Id="1721fd3c-7181-4585-bc08-949dd5e43c2d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9b3947ae-924f-44f4-8d77-c3207f83b9f2">
+                    <propertyInstance Id="ad964c22-b56f-40df-86c4-4e3389088d1e" name="IsConst" value="false">
+                      <elementDefinition Id="889c2ef2-191e-445c-b6ed-b97ea06fbd1b" />
+                    </propertyInstance>
+                    <elementDefinition Id="926ad319-ff22-4261-87d5-a1ccf77c3efa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b84e50fe-8d1b-43a8-869f-54ca5ae5860d">
+                    <propertyInstance Id="2f7a7f71-5db2-4079-afb1-79303971ebd1" name="IsNullable" value="false">
+                      <elementDefinition Id="35a207bb-ed37-4935-be43-7d6a4d93cd32" />
+                    </propertyInstance>
+                    <elementDefinition Id="fde035dc-220b-4ce7-88a3-9316ce1dcf62" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="28856d64-1a0c-4d08-9083-bb54ae0e9fe8">
+                    <propertyInstance Id="60eb08b7-214e-4352-bc47-371ca8163da3" name="IsVolatile" value="false">
+                      <elementDefinition Id="59beaa86-9356-46a6-a324-e2a5de85a931" />
+                    </propertyInstance>
+                    <elementDefinition Id="64f6370a-5e76-4e6f-8275-65b348e241aa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cf1c9d2c-3f26-403a-b4c6-4ed2992225c7">
+                    <propertyInstance Id="caf73908-e04b-4cb0-916a-a82aecf6bf3d" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="6a4308c4-adda-4433-9df0-2123c285698e" />
+                    </propertyInstance>
+                    <elementDefinition Id="eeeaa540-4a0c-4f94-894d-1bf12445b59a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="67a2063f-caf2-465e-8366-1ed9c00000d0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b98ebe26-cdd6-41c7-8a50-5afba2ad7af9" LastKnownName="Image" />
+            </type_NamedElement>
+          </property>
+          <property Id="a29a222c-8e7f-4d4a-a3e1-f89453ba6e39" name="c_RecordName" visibility="Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="266bef07-9d6a-4970-b2b7-999b9f69bbaf" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3Dc_RecordName" tag="ViewCode">
+                <elementDefinition Id="e4857c51-1441-492a-ba97-ca4ae808e97d" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0bdee3bb-1dc5-49c9-b8ba-e7efcdb2f37f" name="field" profile="CSharpProfile">
+                <elementDefinition Id="547d5169-f33c-470d-9f51-0861619b9739" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="08cc39f9-84ec-49eb-8d4b-0afc8bd7e99f">
+                    <propertyInstance Id="62a9c7c3-bc18-4cca-9fcf-cfd566ac9282" name="ClrAttributes">
+                      <elementDefinition Id="7da2c760-9ed8-4af7-8200-08394101e970" />
+                    </propertyInstance>
+                    <elementDefinition Id="b989611c-7864-4ef8-95d8-faf0c9122fab" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9b8739b5-54cb-4073-8afe-476e4ae41ff7">
+                    <propertyInstance Id="f834cd47-b849-4128-8931-f1078fec0202" name="IsConst" value="false">
+                      <elementDefinition Id="56f406a2-0714-421a-88f9-a0c2df1f0c96" />
+                    </propertyInstance>
+                    <elementDefinition Id="9031225a-6475-4028-a62d-32e69dcc02b9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9bbf0c67-186f-4e05-8bcd-66598b77d998">
+                    <propertyInstance Id="41f2203e-31d0-4416-814d-3f239b146205" name="IsNullable" value="false">
+                      <elementDefinition Id="47512481-73c9-47f8-b427-2ac85d4eacb1" />
+                    </propertyInstance>
+                    <elementDefinition Id="c7e5e183-73c3-414f-9d94-d1b11965a637" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="97ef5cd5-8b5b-4392-beae-d7085c906d89">
+                    <propertyInstance Id="e9ff6d6f-b104-46ff-91ec-8caf676d8596" name="IsVolatile" value="false">
+                      <elementDefinition Id="5c767169-e6a0-45a4-bb2b-71dfcc345646" />
+                    </propertyInstance>
+                    <elementDefinition Id="ce974569-eac9-41ed-9620-1a5a0e9598f7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b69aacd8-baf2-406c-8e4b-3a53c5bcdfd5">
+                    <propertyInstance Id="8a4e93ed-605b-4961-9274-08842b385e86" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1ce4b6e3-5da5-4451-9f00-5aae6e3cb828" />
+                    </propertyInstance>
+                    <elementDefinition Id="1ee5f7f9-ccb3-4fe9-8b10-48b53b3d702b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="475a9eb0-592f-47b4-9ac3-dbf0ed1d49fe" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="948f6dea-d915-4487-aaf5-c770dad47f24" LastKnownName="TextBlock" />
+            </type_NamedElement>
+          </property>
+          <property Id="54716e9f-cb92-4db4-8c39-be584a58914e" name="loadFeedButton" visibility="Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="6df177d5-4762-43d8-bace-580600184676" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3DloadFeedButton" tag="ViewCode">
+                <elementDefinition Id="db709e4b-e579-44e9-8055-b3391be992c8" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="34f899f5-e1e5-443e-aef5-a0064e7862f1" name="field" profile="CSharpProfile">
+                <elementDefinition Id="9d9c50d4-928b-406d-800f-08fd9d19ed3d" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="df917356-ad71-43c7-96c8-f061cf5a6be8">
+                    <propertyInstance Id="7cd8b70c-7771-4047-bc1e-7d3d6fe02fc7" name="ClrAttributes">
+                      <elementDefinition Id="43e8c703-efd8-4a7d-982c-2e2bd569c193" />
+                    </propertyInstance>
+                    <elementDefinition Id="ce88a30b-32e8-4f20-b69c-1e830001ca8a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b0aa2e1f-bcc4-4ef5-9035-8df7f122d7d8">
+                    <propertyInstance Id="c48f9744-75fe-4333-8fdc-1a22668a1f65" name="IsConst" value="false">
+                      <elementDefinition Id="a19f1f80-f364-46ef-bd11-2a6e9103b818" />
+                    </propertyInstance>
+                    <elementDefinition Id="51ffa3bf-2018-46d9-823b-ac44e001f1bc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2e2419b8-b871-4bc3-bfab-e5aa93923d35">
+                    <propertyInstance Id="4d9c7407-2fd0-4721-8065-a95dfe3604b5" name="IsNullable" value="false">
+                      <elementDefinition Id="473e3550-7ac9-4d0b-bc3c-94b1219fca38" />
+                    </propertyInstance>
+                    <elementDefinition Id="ce9db5cc-5054-44b1-a6ea-b7001ed90073" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e76c3a9d-6a3b-40e4-b4b3-7a8e622e459d">
+                    <propertyInstance Id="2100eba5-d54d-491d-bcf5-2621e4e377a6" name="IsVolatile" value="false">
+                      <elementDefinition Id="b2d6e7a2-4130-444f-bf46-9c7639d628aa" />
+                    </propertyInstance>
+                    <elementDefinition Id="68cfa888-50d0-4cfd-a1bf-231fc5c62eee" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a731fe59-e0ba-403a-b80b-681678b3ab1f">
+                    <propertyInstance Id="784df044-c868-4767-96ee-cdd458b1f25c" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="bc1bc36b-9e89-4f8b-be07-8ff3eee836ff" />
+                    </propertyInstance>
+                    <elementDefinition Id="87199e1e-dfc5-4ada-b9d0-70cd31994789" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="bc2ba4d6-fbd6-494d-b770-d60af942b475" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d9874543-5813-4fc0-ac63-fd5108e0a783" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="481d45ef-3b74-4170-b16e-1ea00f3361fd" name="feedListBox" visibility="Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="2225fd8d-faaf-4aea-8640-fddd8380c8ad" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3DfeedListBox" tag="ViewCode">
+                <elementDefinition Id="eb56bbb6-cfff-4971-bc71-c0bf74cd0b42" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5dcd4792-6cdc-4d23-b59d-a0e9d79d5036" name="field" profile="CSharpProfile">
+                <elementDefinition Id="5de20947-ea63-4dce-90e8-3af32480f75c" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="71482332-85fa-4167-bc7f-4e679fdd1887">
+                    <propertyInstance Id="e3a24f56-e94d-4738-833a-f6d4c42f9bd8" name="ClrAttributes">
+                      <elementDefinition Id="848ccaab-29da-4d1c-9616-7d53bef70a01" />
+                    </propertyInstance>
+                    <elementDefinition Id="ea56d54a-e67b-4985-a113-73231f4d9a0e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="45a619f6-437a-4642-ba31-ae0f5c8d23b1">
+                    <propertyInstance Id="d37f796c-b033-404f-a5bd-1bc379a8e051" name="IsConst" value="false">
+                      <elementDefinition Id="737319cd-e832-4a86-89b9-038d39d84099" />
+                    </propertyInstance>
+                    <elementDefinition Id="265d2980-82cd-408d-9ba5-5215d7e515d5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="324e17c1-b2b9-4c50-a9c7-7816beb11212">
+                    <propertyInstance Id="598ab5fc-4862-4f54-ba74-c4dc2095cfd5" name="IsNullable" value="false">
+                      <elementDefinition Id="e419855a-8e1c-468d-975d-dd478c6888aa" />
+                    </propertyInstance>
+                    <elementDefinition Id="3785df20-bb72-442e-a199-90365ffcd237" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5bebfb09-946b-49d4-969a-0f9be9e80fe5">
+                    <propertyInstance Id="a64a88be-553b-4216-a0bd-fee428804773" name="IsVolatile" value="false">
+                      <elementDefinition Id="1beeb695-d311-4066-9b05-b2bbbcc23693" />
+                    </propertyInstance>
+                    <elementDefinition Id="1ee701fd-1178-49ab-9f70-bf07fdccd336" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cfe8392d-e243-47bc-bc96-1423748a41d4">
+                    <propertyInstance Id="d17f2e9a-d8b3-4eb8-8875-3138214d26c1" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d2544daf-bd0c-4da1-be53-8a99615aa87c" />
+                    </propertyInstance>
+                    <elementDefinition Id="04e63154-3fea-48e9-8d24-070c07125c80" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="07e5c689-870d-4b91-a370-47da4fc948a6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bdbe3c47-a1a6-4ee6-942b-6af57052c63c" LastKnownName="ListBox" />
+            </type_NamedElement>
+          </property>
+          <property Id="8416d588-8f2b-49cf-90c1-ebf4f927fe3b" name="_contentLoaded" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="1f3a0926-24fd-43a5-b088-e602e31a73f6" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D_contentLoaded" tag="ViewCode">
+                <elementDefinition Id="4124b00b-22a5-49d1-9ef5-afbc11b5909f" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="2f952eb5-c3c5-40da-9065-98143b77ecec" name="field" profile="CSharpProfile">
+                <elementDefinition Id="626cf58a-b201-4d56-864d-24ccef970b3c" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3e12599b-4187-496e-a7f5-25084449440a">
+                    <propertyInstance Id="6b64b783-cce9-423a-bfe4-db13e9fcc9db" name="ClrAttributes">
+                      <elementDefinition Id="1be17c4c-25d7-42cc-b35a-c81098c6b3dd" />
+                    </propertyInstance>
+                    <elementDefinition Id="0e0c01dc-09af-40b9-9380-5913c66f7c59" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4a57fb6e-2a66-4338-9ca9-34bcbccdb433">
+                    <propertyInstance Id="be149b58-879e-4043-9e6f-9041c425052a" name="IsConst" value="false">
+                      <elementDefinition Id="8ff345be-dd86-4c48-8645-cf55d69b98a8" />
+                    </propertyInstance>
+                    <elementDefinition Id="60cf2351-7fe5-43fb-9b31-711d36c38c75" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3b523445-1a54-4db0-a835-1ad822e12916">
+                    <propertyInstance Id="a6278c4f-085a-43e2-b807-bd0a803caede" name="IsNullable" value="false">
+                      <elementDefinition Id="326dd539-5543-4b83-843d-4e70f4572cce" />
+                    </propertyInstance>
+                    <elementDefinition Id="0773aa32-ac4b-4166-98a9-a2257fb5f84c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0c30b553-76d8-484b-afa9-9eb02540b4cd">
+                    <propertyInstance Id="fdf9183b-cab2-44eb-8201-81a89079efb6" name="IsVolatile" value="false">
+                      <elementDefinition Id="4703a8ef-5e95-4646-9519-b4cd0199b203" />
+                    </propertyInstance>
+                    <elementDefinition Id="9fde243b-4b7f-413f-8f13-2ea11dc2c54a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="78a3abef-ab5e-4dac-a332-a8e71ef55a02">
+                    <propertyInstance Id="887c82bf-3e8f-4da9-996e-72cbdb6c143e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c133c2aa-90d3-42a5-9a41-9edcecca0a48" />
+                    </propertyInstance>
+                    <elementDefinition Id="a01c39ec-af43-47c2-8c81-187574233256" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="6c586ca1-8ea6-4c7c-b8ce-b61858843bf1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dbeb6ba8-7690-4eeb-a55e-a1badc45d5a8" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="2f28a57f-fca2-48b9-aeaa-a8e325183fde" name="health_Tap" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="bcd42d06-95f0-4778-8c37-9ecc9eb1eac4" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dhealth_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="47cd2952-eaa1-46d8-9709-2f6535f1ccf8" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a41b9215-cc5c-46f6-97cd-a1ffb936c241" name="method" profile="CSharpProfile">
+                <elementDefinition Id="1f6de11b-f347-4374-a363-7fc16a3d236a" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="11db1132-bc22-4e02-977f-7819277e3fb5">
+                    <propertyInstance Id="80d081a4-d071-42ac-aee4-5bb1014ae014" name="ClrAttributes">
+                      <elementDefinition Id="29181dc2-3609-4073-a201-ec91cd2c9bd1" />
+                    </propertyInstance>
+                    <elementDefinition Id="c19cfdb8-6ce6-4620-9512-a7c5dcc21007" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1921e50a-8fd6-466d-93fc-5e2e07fe2cfe">
+                    <propertyInstance Id="2040087a-db2c-484d-a17c-bd03ff0e3887" name="IsPartial" value="false">
+                      <elementDefinition Id="e390bd75-324b-417e-9379-c4bdfd4ea892" />
+                    </propertyInstance>
+                    <elementDefinition Id="92a30a18-4789-4875-82cc-75730e1d458f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1ac5de3b-dae2-4684-91f3-bda8ff82d0db">
+                    <propertyInstance Id="7e150502-b0df-4cf8-9088-7e1cc734c591" name="IsUnsafe" value="false">
+                      <elementDefinition Id="d8188b4f-c4a9-4595-b068-e3d926d14be9" />
+                    </propertyInstance>
+                    <elementDefinition Id="72e663ae-1623-4b16-af15-3cb1957be41e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fa8b3373-5db3-4149-ab45-046c04690970">
+                    <propertyInstance Id="e3afb6c1-b990-45b5-aef1-cf6007c45b69" name="Inheritance" value="none">
+                      <elementDefinition Id="a92d4646-c148-4191-8d98-8f749598cefe" />
+                    </propertyInstance>
+                    <elementDefinition Id="fdf868d9-5f40-44ba-af4f-cc384fb028d3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="80f6a5f9-1a2c-4f25-8ad6-d1713065aa8c">
+                    <propertyInstance Id="1c41a439-d52b-48e8-8bc5-6ed1aef2a708" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="2be934bf-572d-46de-9da1-6ff223436656" />
+                    </propertyInstance>
+                    <elementDefinition Id="abce3ba3-e055-4f19-9331-bfa8eb8d4771" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="619dc3a0-f7d9-42a2-92c6-6a7dc743f4b0">
+                    <propertyInstance Id="8d560752-9db9-44f0-a760-6bd4104bec4a" name="params" value="false">
+                      <elementDefinition Id="7860b219-56a1-4426-9ad7-a429e014f494" />
+                    </propertyInstance>
+                    <elementDefinition Id="90737697-c589-4663-aa66-f95b5bdd7c16" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="87c826d3-7d1a-441a-a4d7-a0ac3e219e87" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="17cf32e0-62d6-4aa0-a342-cb69e75d1ee0" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="61ade795-e7fe-4da9-86bc-5216ba9f2d53" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dhealth_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="eec6e88d-439d-4c91-b186-6dcda13fd9c6" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="a0eebc25-587d-4737-9e48-c18319a5da8e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="37c99e71-76eb-46e9-915c-cacc1c20a417" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="adead6e9-e6b1-4378-a8e9-d7c5a2319bb2" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dhealth_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="6aa58c2c-39a8-41f1-ae69-d26d879f4ff4" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="591e1cb5-f170-4b0a-bf3e-108d1b2ea729" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b7c64789-6a9a-43af-b519-93acc943748e" LastKnownName="GestureEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="ff27b030-3163-4fe3-9624-b80960101393" name="profile_Tap" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="4162d8c1-7dbb-4c6c-815e-62b134ebf99a" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dprofile_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="111b9980-5eb2-4af2-973f-e3ff71416707" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="73630aec-bb71-4b23-a218-af9026bfc8c5" name="method" profile="CSharpProfile">
+                <elementDefinition Id="ae10ce7c-65be-4365-a8e3-be21c06243c5" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="32b6a6c9-4c3a-4672-b044-dbdc2c46847e">
+                    <propertyInstance Id="a49828a5-fd27-41bd-9800-82ddbe517ef0" name="ClrAttributes">
+                      <elementDefinition Id="dee4caa9-049c-4200-a70f-f37ea8e27fed" />
+                    </propertyInstance>
+                    <elementDefinition Id="e1edaf27-73ab-46ae-9e4c-68262d9ee3b8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7494a973-3807-40b7-9962-67c7e4cb4b7c">
+                    <propertyInstance Id="79b0663b-208a-47ff-a56f-3224e1cd4f33" name="IsPartial" value="false">
+                      <elementDefinition Id="9cebb899-404e-40b4-830b-f7ee3f366385" />
+                    </propertyInstance>
+                    <elementDefinition Id="ff488356-0e32-4460-b598-d25660514746" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2ba70903-9020-4d7b-bb65-4df1cd4ead18">
+                    <propertyInstance Id="67cab2df-5f5e-4ee2-81ae-0d5d63386d1b" name="IsUnsafe" value="false">
+                      <elementDefinition Id="74428738-2683-4188-81fd-6f22d4f5a36a" />
+                    </propertyInstance>
+                    <elementDefinition Id="a659c2db-7d54-42a9-8987-11a0acf8ea62" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f3dbd298-e4d0-4546-8c0c-097a54a92d68">
+                    <propertyInstance Id="c3633943-490b-4935-9ada-08f499d81ae7" name="Inheritance" value="none">
+                      <elementDefinition Id="5e74c661-7101-4197-acf2-4e12b93341f3" />
+                    </propertyInstance>
+                    <elementDefinition Id="bf993027-2aea-404f-9004-9b2f999d911c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="62183ef5-3ebc-4239-9213-5341da3f44f8">
+                    <propertyInstance Id="102ed41c-ecec-4680-bece-d16f80b1f70b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="5f3fcabd-3982-4b6f-af33-d8bda50029d2" />
+                    </propertyInstance>
+                    <elementDefinition Id="e3890c99-28bf-4b0f-b498-08140e852373" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5e396326-e0e5-4b96-816e-e3d3066ba814">
+                    <propertyInstance Id="4440d1ae-4c56-4317-9a0c-494ea922b457" name="params" value="false">
+                      <elementDefinition Id="2badd485-9749-4ec8-a50d-c792f9a7e223" />
+                    </propertyInstance>
+                    <elementDefinition Id="7459d2bb-c942-49e5-ad21-2f9365d33801" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a6763132-67e7-4fd2-835b-b6b26eba1307" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b1805ffb-ae33-4860-8ad2-d05ef7bd9a7d" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="d63974cc-1c50-42b0-b7b6-703059ad195a" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dprofile_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="fcac87db-0f62-4155-8d2d-5d95d67ce01f" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="97396f06-da84-485f-8c6e-66de796bd879" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2decb1f6-6035-4793-8de6-d886c86e9954" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="a0a1a664-1d89-4728-8a28-ff87f523a9e6" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dprofile_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="3c16c0b8-55f0-4302-841c-822ddf47573f" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f8e82869-98a7-449c-85eb-5d99ce39f739" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b7c64789-6a9a-43af-b519-93acc943748e" LastKnownName="GestureEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="45a6df9b-c470-42f5-8d76-53ac77df49d0" name="measure_Tap" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="a209d837-5e5a-431c-abbe-e734d5dbb534" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dmeasure_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="445fb637-7f93-4b0c-998a-94d252e931fa" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="4d575f9f-74ba-4fd3-96e7-a4ac4695d3af" name="method" profile="CSharpProfile">
+                <elementDefinition Id="e6d38dee-7eb0-45af-bebd-e93f78b9af19" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cd86f849-8e8d-4bd0-a39d-e8811da18422">
+                    <propertyInstance Id="ffa014ad-bb58-469a-94f2-b8ac1f3e5d14" name="ClrAttributes">
+                      <elementDefinition Id="5854a5e3-9f2c-4132-8b83-fa0d08089745" />
+                    </propertyInstance>
+                    <elementDefinition Id="a76a2d3a-9f7f-4b24-b106-4754d827b57e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d86b35be-f2eb-4b2f-bb1b-4586c0ac2057">
+                    <propertyInstance Id="ff1b0b5c-7a56-4145-bf03-18c78ec5a5a2" name="IsPartial" value="false">
+                      <elementDefinition Id="d17da9f1-3d2f-4784-b0af-64308af5406d" />
+                    </propertyInstance>
+                    <elementDefinition Id="b36e09ba-f524-4720-aef8-0e13a0734a28" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2acff8d7-7ad6-45a0-a9ad-9253599969b9">
+                    <propertyInstance Id="5f9768b9-e77b-4f8e-9dc3-6f68765ce2d1" name="IsUnsafe" value="false">
+                      <elementDefinition Id="d026d8a1-5b9e-4efa-8275-18a8d4b455ed" />
+                    </propertyInstance>
+                    <elementDefinition Id="21332ed7-1a6d-406d-bbf0-20d793fa82a2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e198908e-73a5-4c75-bb3d-2651c0b9916f">
+                    <propertyInstance Id="7861ed99-bcd3-43f2-933e-a41e9ecde128" name="Inheritance" value="none">
+                      <elementDefinition Id="d6a6201c-256c-4b3e-9ab4-adbb3d051903" />
+                    </propertyInstance>
+                    <elementDefinition Id="ed22f066-178a-499c-bd14-88fbb0564a9c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7665d387-259d-4319-a118-a6f7ca77a24d">
+                    <propertyInstance Id="6de1ef1d-a8ed-4862-a661-ac3c5caa25a8" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="076e6524-9531-43a3-819c-c28f15aea3d4" />
+                    </propertyInstance>
+                    <elementDefinition Id="760f68eb-a96b-46ac-b914-2685f3b0fb03" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a4ab844d-7da5-4fba-8f95-2feee7d987f4">
+                    <propertyInstance Id="1264f823-d284-4ba1-8996-0af2d0f67229" name="params" value="false">
+                      <elementDefinition Id="62e0f211-194d-43ab-bd46-435a480cfe58" />
+                    </propertyInstance>
+                    <elementDefinition Id="260f5697-dcbb-4b55-b871-727df505c093" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="6e98b443-e546-4c50-aa76-2a7aaf2c7e2c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0836fffc-e19e-4464-91db-30847bbb487d" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="10fca6e7-8404-4e4d-9bf9-e9be0d2ee541" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dmeasure_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="fcabf3fa-a616-4a71-af98-f7d1c7cacee3" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="08b2e7c8-69ba-47d3-9723-2de2305333f7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="489c2e25-6dd7-44a3-abb6-24bcfca312a5" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="13d40701-3174-4b38-868c-0737aaa7a113" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dmeasure_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="704ce3ba-2efb-4bf8-af50-6548210587a1" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="8c2e3cb5-6638-4948-8856-6e72627e893b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b7c64789-6a9a-43af-b519-93acc943748e" LastKnownName="GestureEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="80115421-2246-4436-ae27-99275443fe97" name="mapEvent_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="14c0c673-c847-4592-81ea-143d164fdbe6" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DmapEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="9e55b1ee-5e0c-4e01-aa29-1e361418c07e" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="82443d36-e12b-45f3-9e54-1b1118d46340" name="method" profile="CSharpProfile">
+                <elementDefinition Id="0d9ce748-dbc9-40fd-927c-07ab650e0def" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0cafd3e5-fb3d-4b77-8f66-0aa0fc84f00b">
+                    <propertyInstance Id="641a656c-f62a-4595-94e1-d1e85eadaabd" name="ClrAttributes">
+                      <elementDefinition Id="3534b00f-8d16-49d5-9206-07befe37b4bf" />
+                    </propertyInstance>
+                    <elementDefinition Id="8e146f22-4f10-4949-aec9-6b5f08d0d49a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2d16ca11-b656-4c71-b199-7d09adf4ad76">
+                    <propertyInstance Id="fccf530a-4095-4510-8112-e56569a60658" name="IsPartial" value="false">
+                      <elementDefinition Id="0d2fcd1d-0e10-473f-819a-744cccd551a8" />
+                    </propertyInstance>
+                    <elementDefinition Id="0454c5fb-aa77-4112-9717-a217a6f797fc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e0c7e4f1-d6b1-4238-b485-f243a9c5345e">
+                    <propertyInstance Id="2a564190-a274-4b00-8e6a-dcce26cac4b7" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c2c73fc3-5e82-497d-a0a8-89abcd90a07d" />
+                    </propertyInstance>
+                    <elementDefinition Id="00acafe9-bea0-4fcf-ae27-3ccb59b52338" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="765c34e8-e11e-4dfa-9873-7f1e04aa8cb0">
+                    <propertyInstance Id="5f0af68e-17f2-4491-b8a5-4009a7cdb8f5" name="Inheritance" value="none">
+                      <elementDefinition Id="fc35d4d2-2313-4330-84f2-2b907339b007" />
+                    </propertyInstance>
+                    <elementDefinition Id="cf4028d7-3417-429d-a9d9-cb06fedb25f1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3a9a19c3-1581-44c9-b39b-beab54ae0edf">
+                    <propertyInstance Id="a98cd069-c527-4069-bfa7-d6577495c88a" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="3224dd5e-fc4e-4c6b-b159-e3d5ed8e1815" />
+                    </propertyInstance>
+                    <elementDefinition Id="544e8fb3-a7ee-49d4-97c0-a54ec5d69893" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a78e4a9a-d4c9-4b7e-8906-6545fb56afb6">
+                    <propertyInstance Id="77da04eb-e645-4112-9c7f-80cccd29d0e3" name="params" value="false">
+                      <elementDefinition Id="5299a28e-3882-42e8-a4e1-7e5884aeeeb4" />
+                    </propertyInstance>
+                    <elementDefinition Id="8ce9a2fa-fefd-4af0-9c0a-501e585d87f5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="e5b4f92f-8138-4b07-920e-cdc8d53a3c7a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8340ace3-841a-4b13-87b4-270c0f83ddff" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="f049a893-3bb5-42ff-9300-b8dae2a4279e" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DmapEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="7fa63f96-c12f-4c3f-a180-af2b9a266e21" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="cbbcccf7-f6ad-4d7c-9621-a24e5ca0c523" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7d2cad44-eeac-45d6-862b-bdb2c43a4ee8" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="e1ba2c2b-5700-4e45-aee5-5477db29a5df" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DmapEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="98a9816e-eb53-4570-a20a-f8b4aff9ed9e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="0ae9bb35-4861-4f33-81a4-6b4e9652cd54" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1b6f5a90-b807-4f52-a2c4-dbaf3c7e80a8" LastKnownName="EventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="8cbc288c-03d9-43a9-bf2f-29312a2c0874" name="logsEvent_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="5a40170e-0d54-445c-ae31-2d13e73d7233" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DlogsEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="ff21281d-8579-4284-b4a3-482f44c5b684" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="90e290c4-dd5e-44b4-883a-1be5cce3bb34" name="method" profile="CSharpProfile">
+                <elementDefinition Id="04504ec0-2445-464c-947a-d0ad2adaf796" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="012695ea-4034-4226-8ecb-d26581f54405">
+                    <propertyInstance Id="2d479b17-84f7-4d12-8478-0eb0f2f972bb" name="ClrAttributes">
+                      <elementDefinition Id="dc189fb4-2d80-4d0b-b9ea-d8d997d82174" />
+                    </propertyInstance>
+                    <elementDefinition Id="e3b43ab8-f936-4b82-a9ba-37f74a82b8e8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9d9a1386-e501-491f-a886-ad6dfd095ec9">
+                    <propertyInstance Id="b8a05430-9708-4eec-9542-5cd1da42fc20" name="IsPartial" value="false">
+                      <elementDefinition Id="451ed5c7-383b-4d56-9140-0e2501c350fe" />
+                    </propertyInstance>
+                    <elementDefinition Id="00b893e6-22ba-4ed7-b165-78aeb1a9b419" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9bed0b0b-973f-4fa7-ae8f-09bf88a8b955">
+                    <propertyInstance Id="76047033-7481-4800-95a0-4461511a9f69" name="IsUnsafe" value="false">
+                      <elementDefinition Id="a5715227-59ca-4e9e-a646-8ffe4796cac9" />
+                    </propertyInstance>
+                    <elementDefinition Id="a13a35b0-a59f-47a2-8730-afad6b9faac5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="064181db-faa5-42b3-9566-6541ab2b7d6b">
+                    <propertyInstance Id="51bda040-b5bf-434a-bf7a-bdfc04e3ca08" name="Inheritance" value="none">
+                      <elementDefinition Id="0d0f6e6f-d218-4d00-a6fc-19272182d027" />
+                    </propertyInstance>
+                    <elementDefinition Id="5c77fbae-d80f-464d-b0d7-0038138794db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d0d3164e-bb7c-46b2-9cb1-ebdbafc8c2b4">
+                    <propertyInstance Id="46e7c3d5-b5ab-4cd7-947f-60956fb1252d" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="86956a84-1119-4a0d-89f7-c0c41c0c4119" />
+                    </propertyInstance>
+                    <elementDefinition Id="c3cd3d2d-51f7-498b-bd55-77105e6efb5a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0095c961-3c62-48d3-922d-e4441359a450">
+                    <propertyInstance Id="47fc2f48-614b-4a99-9943-8b94291cb15e" name="params" value="false">
+                      <elementDefinition Id="eff89213-bf03-436d-8d65-fc7460b45f6e" />
+                    </propertyInstance>
+                    <elementDefinition Id="969f46ec-069d-48a7-b23b-201bcc90a843" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a9ce733a-105e-4538-9c9d-acc44afdc7e3" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="301754ee-6244-4208-847b-0bda0bd19810" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="d7377624-e789-46fb-ba06-3c54a7de1ff7" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DlogsEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="649cbc39-0692-49ba-a96f-c49a8ddc3893" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="601c2aa2-d9c7-4ef8-b86d-995b77a4e519" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f9d6fd4b-0b4f-4715-81ed-4d3b6c9048c6" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="433a5558-dddc-42f7-ad99-00e901442a09" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DlogsEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="aa73c176-d8b9-4afa-864c-9dc13ee2a9cd" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="025100e6-30dd-4622-a4db-f2f771f023a1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1b6f5a90-b807-4f52-a2c4-dbaf3c7e80a8" LastKnownName="EventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="5be3aca3-0dde-472d-b4a8-d14c39b6bd91" name="callEvent_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="75ace39d-c6bf-4f07-89da-2b2ec83de5c6" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DcallEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="46131810-74f8-47fa-90f4-ae9e72539a63" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="e2b38f4a-3113-4db0-bbfc-a22eb5db686e" name="method" profile="CSharpProfile">
+                <elementDefinition Id="f0bb6ab3-1c11-403c-b1c4-800aeb415fad" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f7d1a00a-967a-4e55-8bfa-fd8936ccc209">
+                    <propertyInstance Id="8890f1fa-b9b7-4618-a922-272cb13d73d5" name="ClrAttributes">
+                      <elementDefinition Id="24ece515-c385-4c8e-bdda-391a884365ec" />
+                    </propertyInstance>
+                    <elementDefinition Id="0f9ecb4b-c8b0-4984-9b57-a0ffe3b996fa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6e0dc5a5-2ebe-43e0-9c69-6cf88d4447ef">
+                    <propertyInstance Id="2e27b5ec-3c87-47a7-b9d2-d4608d0b33e3" name="IsPartial" value="false">
+                      <elementDefinition Id="49d7f396-153d-4588-87e5-bc1bbe29ecc1" />
+                    </propertyInstance>
+                    <elementDefinition Id="c48b0a7f-f405-4040-9014-5c8a2345b4eb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="736c125d-2020-40bd-9149-15d6322bc896">
+                    <propertyInstance Id="08fea537-a61f-4592-a06e-cb14dc998232" name="IsUnsafe" value="false">
+                      <elementDefinition Id="ac735ceb-acfd-4e56-b74a-9afd9db17862" />
+                    </propertyInstance>
+                    <elementDefinition Id="91e8bdd6-b239-4992-98fa-0e9801509275" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c6b5ab46-7110-488e-b597-722cc64b4a51">
+                    <propertyInstance Id="b3c2e606-9577-417c-bcbb-5a86ee861457" name="Inheritance" value="none">
+                      <elementDefinition Id="ba050125-9890-44d1-8036-5c936395544e" />
+                    </propertyInstance>
+                    <elementDefinition Id="4dc3a33e-6bcc-4faa-92cd-431dd0aef2bf" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9db2ba40-03f1-4b61-b970-cefc01f70668">
+                    <propertyInstance Id="50d204bc-c27e-4f45-ab17-126634605641" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="21601ce9-c031-4279-b9ed-ebc264ba380a" />
+                    </propertyInstance>
+                    <elementDefinition Id="ced2cdb7-ea93-4b52-b26e-09ad055dd4a4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3b9ff495-e3db-4378-915c-79e52da028c7">
+                    <propertyInstance Id="9af72670-7703-4e6c-8826-6cf0cfd4efd5" name="params" value="false">
+                      <elementDefinition Id="9d3ccfd1-6642-42ca-a120-17cc540f4c87" />
+                    </propertyInstance>
+                    <elementDefinition Id="059df831-b576-42cc-baa1-51fc40ade4e8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="756049d5-5fbc-4048-bb8a-f445dea1a76d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="95c943cc-c5be-43b4-acb6-9681f4f33023" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="990c06e5-e7e9-47ec-b66c-a31d4699b72b" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DcallEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="1fa42ce8-d17d-4dcb-be97-6f43196f7772" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="8faabc9e-c4ab-4fdf-837e-dc699409eb95" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5fac2bb0-a7fd-4a81-a8c8-de67173c3761" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="c791af4d-c85e-4522-8126-2d81d8cb89df" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DcallEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="5424aacc-5ea1-4ea9-b693-57a32a5e2adb" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ce354d2f-4846-4abd-a86a-57d5cf62cc77" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1b6f5a90-b807-4f52-a2c4-dbaf3c7e80a8" LastKnownName="EventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="50ed728b-837a-4ff1-a0a3-d6bdcc2b15dc" name="shareEvent_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="2cb1c263-0ebc-4884-9d1c-2f67c80d019b" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DshareEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="5af69378-83f8-4e17-a37b-37c7ed2944f6" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="66cc55fc-86ae-446b-9e88-243522a735fb" name="method" profile="CSharpProfile">
+                <elementDefinition Id="d6973b18-f5b3-4a86-826a-09567d889c10" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ed115c10-394b-4ffd-9424-b46ad649e47d">
+                    <propertyInstance Id="e424ed22-03aa-421f-9ab0-372c021b140b" name="ClrAttributes">
+                      <elementDefinition Id="83b5849a-ce64-4ae0-bc59-caaa224a233f" />
+                    </propertyInstance>
+                    <elementDefinition Id="059a7eca-24f9-468d-b7cc-8c1e768fd760" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e9347fc5-c1ee-4dec-a623-c8f41d4587a5">
+                    <propertyInstance Id="6cc7aba4-7d1f-4472-97b0-d59ad34504ac" name="IsPartial" value="false">
+                      <elementDefinition Id="4643bd1d-7aec-4f0e-8750-e4d43eecae97" />
+                    </propertyInstance>
+                    <elementDefinition Id="8b154374-2e36-4019-9f62-8270e5c475f0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c5266f72-6448-4605-9f58-4385722651da">
+                    <propertyInstance Id="8045bd27-57d7-464c-9e1b-9c7408bfdb7f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="cec3913f-1c87-47d6-aa70-60c6824017b6" />
+                    </propertyInstance>
+                    <elementDefinition Id="81aae7a5-22d5-4480-b790-da3e4dfd0eb6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e5d56046-4947-41a7-9f6d-0667e10d960f">
+                    <propertyInstance Id="6466f139-22f4-44df-ab88-88aa33094c42" name="Inheritance" value="none">
+                      <elementDefinition Id="4e200d75-d74d-4338-bb0a-d95a742c9d69" />
+                    </propertyInstance>
+                    <elementDefinition Id="6d655a90-41a0-4ed4-b807-bc54bac3bdbd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="70d60491-2f5b-4301-aa76-7d7936d30208">
+                    <propertyInstance Id="4283ae3e-3cab-433a-820c-ce9d18419885" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="dd0a0e9e-716d-4083-8cb0-fb98bdf5e3c9" />
+                    </propertyInstance>
+                    <elementDefinition Id="70d8ad1f-62f9-485f-a4ba-1b5de0e7193a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9eac547d-c695-4af1-98ad-4e5cafbe4305">
+                    <propertyInstance Id="1206ba70-9411-4ae8-8065-6690a879cab1" name="params" value="false">
+                      <elementDefinition Id="9f58ae30-102c-4c09-a647-c37afc4feabe" />
+                    </propertyInstance>
+                    <elementDefinition Id="ed481997-b641-4532-a4b6-618001e062b4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a45b015a-5e5a-42d5-a083-719e27ba486a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5ee91c5d-1a4f-4504-9370-63ec06ccaf76" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="4c0fd971-05ab-4aaf-960e-39101bbea42d" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DshareEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="e49256df-6ae7-4ff9-800a-33144777478e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="7690f7cd-1c09-4f4d-be39-ba343724e179" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0d902fd5-cd0a-4e2d-b4b7-59828d07b4ce" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="2d1edb84-921d-4631-a6ed-5a02e69351ea" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DshareEvent_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="435da3d2-c7f1-4404-a716-b66ad7ebd851" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="def10014-4696-4385-97c8-77d876e1e9ba" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1b6f5a90-b807-4f52-a2c4-dbaf3c7e80a8" LastKnownName="EventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="00267f76-1172-4422-a0f1-a3ea5cbee5c7" name="exit_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="5d313c5c-8b84-4840-a79d-d86b4c0535d2" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dexit_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="fc0c8bdb-3b42-4563-9ba4-42bc74433b03" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="cf990376-3272-46c1-a71c-48ad7a1095ba" name="method" profile="CSharpProfile">
+                <elementDefinition Id="7c2f259d-ec58-4a57-9050-3894d6abb71b" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3e8b135c-b269-4093-b603-d5d82dd92bca">
+                    <propertyInstance Id="93504e66-10a9-4ceb-8a6d-7b7fa685a0cd" name="ClrAttributes">
+                      <elementDefinition Id="33bb16c2-e2f6-4af3-94a8-abcf6800631b" />
+                    </propertyInstance>
+                    <elementDefinition Id="7d2cd581-3ccd-45a6-acd6-fbc7e46c8449" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="747f4e91-a02e-411b-af69-40f61ebc5b56">
+                    <propertyInstance Id="0d1d3115-d7b2-40fc-9cda-fc0484ed7f9a" name="IsPartial" value="false">
+                      <elementDefinition Id="1948eca8-e6fd-4e6d-b7b5-a83c54f9a991" />
+                    </propertyInstance>
+                    <elementDefinition Id="00290bc4-73a8-413a-b128-2655b86fcb94" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="720c7c9c-378c-4959-ab84-9eafc98c4bb3">
+                    <propertyInstance Id="c9556847-30ed-4c27-b945-1cafd8f4ddea" name="IsUnsafe" value="false">
+                      <elementDefinition Id="358bf691-5f27-4b5e-8f1a-836e18b7afee" />
+                    </propertyInstance>
+                    <elementDefinition Id="1551fda9-049e-4d20-a19d-78f2d4b3ed1c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="840148bb-7f4b-41b8-ae00-599f75731f43">
+                    <propertyInstance Id="8803c4c5-7b2c-49f1-9d2f-a1380c6aaf96" name="Inheritance" value="none">
+                      <elementDefinition Id="5b5024ab-9544-4bfe-bf0c-ebee82d46b3c" />
+                    </propertyInstance>
+                    <elementDefinition Id="398a226d-e845-423a-961d-6c94b3a276cf" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8bea5168-ad1c-4abe-b2a3-a8944cdfc6c6">
+                    <propertyInstance Id="cb2b8fa7-c206-471a-a71b-1aeb24fac40e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="e9b9a3ea-8719-4618-88df-71b774a11de2" />
+                    </propertyInstance>
+                    <elementDefinition Id="13e40e11-adae-47fa-a66e-09989f52a8c1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5629af5d-f8a1-4a90-abbf-7b02bdfbbe92">
+                    <propertyInstance Id="f819b263-e727-406c-8be0-cb6a15ae3ff9" name="params" value="false">
+                      <elementDefinition Id="5d2f61a4-8f60-43d1-92e2-59eea64c50dd" />
+                    </propertyInstance>
+                    <elementDefinition Id="35b849b7-503e-4462-98ad-c7b094aedb13" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="647edd6b-d229-4956-868d-7094c4a56f28" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="311879d9-171c-4dad-a3c0-4f84fcca190b" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="2b77c1e9-fce3-423c-8ba0-c8e294c7b1e1" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dexit_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="7a770e55-1d94-458a-b2b4-b9bacc6aaa97" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="7fa99db2-40df-49a6-a52e-f14bdfb083ed" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="17b9aa9c-00bc-41cf-9b41-0af96a51531a" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="559794c4-3e8c-4f88-b383-3ff65c02901a" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3Dexit_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="a1369591-b1d3-45d0-ae96-189d3f6f9772" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="91dd0e56-1a64-4629-b90f-7467d3570d85" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1b6f5a90-b807-4f52-a2c4-dbaf3c7e80a8" LastKnownName="EventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="f0941d62-37aa-42b7-99d5-d24cd9207ac4" name="loadFeedButton_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="7beca411-82ab-45d9-a284-1de4aae97da6" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DloadFeedButton_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows Type%3DRoutedEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="46ca3d59-a57c-46cf-8ea5-bad8f53beade" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="eb9d8ce4-eee8-40d7-9991-96beb1ac9414" name="method" profile="CSharpProfile">
+                <elementDefinition Id="08e3f9a1-32dc-4aff-ae4f-9be0c3350e74" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f21efaf8-a213-41d8-9c1d-1193178d77db">
+                    <propertyInstance Id="9b06ae02-8226-4d0e-bb74-b5ce41e52e90" name="ClrAttributes">
+                      <elementDefinition Id="70ca94b7-e7ff-45e1-8d64-0953c1c012e0" />
+                    </propertyInstance>
+                    <elementDefinition Id="6890390b-d187-4f90-89ac-a40f461e3357" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d08392ca-0041-42f1-9257-eb9c60377899">
+                    <propertyInstance Id="25057cd6-0d3a-4829-8f99-4418cb57be32" name="IsPartial" value="false">
+                      <elementDefinition Id="19c04e0c-4ec8-4c47-b404-55e84141592b" />
+                    </propertyInstance>
+                    <elementDefinition Id="7180a00d-1d04-4394-836a-0e2a5a5a8ce6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="af4d3431-0ee9-4e4f-a46d-ab8e46e9ce12">
+                    <propertyInstance Id="9cad8d5f-3938-4256-aebd-d5962aa7f70f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="463ba517-c775-4b30-bd09-ee739a5cb343" />
+                    </propertyInstance>
+                    <elementDefinition Id="be179588-5d17-4b74-9c8e-39b40fa9eca9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d5f12fa4-5f22-41a6-8497-6ef619dd6023">
+                    <propertyInstance Id="8d77d5e9-42b5-4eef-b832-462761f87307" name="Inheritance" value="none">
+                      <elementDefinition Id="fddf61de-442d-4a8b-9fdc-d3cc48065ba5" />
+                    </propertyInstance>
+                    <elementDefinition Id="a7505b31-2812-4b01-9391-ad9328e68c74" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fab1f375-6543-4f69-b2c1-eec907df36b6">
+                    <propertyInstance Id="25e29a20-5a62-4745-8691-741d0c434229" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c09d3bc1-1dcb-4d4c-b5f8-99730506d9e9" />
+                    </propertyInstance>
+                    <elementDefinition Id="4e7bbdab-eb8e-461a-9460-abdf4d76fe1a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="021eb469-3b5a-4f4b-bf7c-3c6dc40dd7da">
+                    <propertyInstance Id="09c71d4f-7d03-4a38-a295-32fbb6d1ecc3" name="params" value="false">
+                      <elementDefinition Id="a7a70f9e-e9cc-4fd1-8aca-7a52ac2b67bf" />
+                    </propertyInstance>
+                    <elementDefinition Id="6873e559-05e9-4d65-9b3a-65b5d1431ac6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="46be561e-2c8c-48d0-94a6-1d2be2686d22" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="23bb6e10-512c-49ff-a320-8854200ffc4f" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="86190b6a-eb8e-46b8-b69e-1f53119b99ae" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DloadFeedButton_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows Type%3DRoutedEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="1742718c-be24-4fda-a980-2092a5e95522" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="e42afd27-7036-4ba6-a840-73d652a6bb4f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6e0060b5-c445-40eb-b5dd-71f253740dc0" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="73deaf78-3312-42fb-b848-67d7e379cf7b" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DloadFeedButton_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows Type%3DRoutedEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="7e3facb8-9192-4905-b6bb-33903aa8350d" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="99722c12-cbbd-420e-8cb0-46aaedca3b5b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d07cb0e8-2dd3-4743-9152-09f992ecce4e" LastKnownName="RoutedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9874e0e8-ef31-4e45-b785-d8cb0d24ce6f" name="webClient_DownloadStringCompleted" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="af0493b0-e8ca-478e-9562-a0e7ab4226ee" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DwebClient_DownloadStringCompleted OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="4833ab57-94b9-477a-b8ab-1e672cd73db1" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="bf642326-29a8-4a61-9c05-ae45c52ee44d" name="method" profile="CSharpProfile">
+                <elementDefinition Id="9216ef6b-7e7b-4d4e-b9bc-c9ae7a46c2a3" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0269895a-b894-4bfb-b246-d3858a50ea25">
+                    <propertyInstance Id="8578f442-f24e-45df-8641-d73e719707a1" name="ClrAttributes">
+                      <elementDefinition Id="9bf5d0ac-3341-4935-ac5b-28a6836242ef" />
+                    </propertyInstance>
+                    <elementDefinition Id="5d8b1d85-ef3b-4981-89d9-116923e724fe" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="813d3797-3473-4bc4-ba9d-c35db217a73f">
+                    <propertyInstance Id="f134a2e9-1ca2-48b8-a4e9-59642b90a335" name="IsPartial" value="false">
+                      <elementDefinition Id="df557ac6-70f9-4d06-8bdd-5b88c5443988" />
+                    </propertyInstance>
+                    <elementDefinition Id="813bbe30-55e0-4fe7-953b-fc4c48f8a69d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="81de19ec-40f1-4274-b38a-c3c43075f4c4">
+                    <propertyInstance Id="9245d221-8170-4b48-917e-d56036b96bf5" name="IsUnsafe" value="false">
+                      <elementDefinition Id="cef757d8-b2ae-462e-a38a-d9e59fabafea" />
+                    </propertyInstance>
+                    <elementDefinition Id="d5770838-3ccc-4e61-bec8-50cdd4f50bbb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="800ec641-b83a-406a-9675-a3b45b3c624a">
+                    <propertyInstance Id="86cfdc5e-401e-4b7f-bbb8-aa0635243a94" name="Inheritance" value="none">
+                      <elementDefinition Id="601f0142-f64f-4d58-9a89-fda19c38aa81" />
+                    </propertyInstance>
+                    <elementDefinition Id="cb9d1900-541f-48e9-b9c2-f85bbbb85f3c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="18bbe829-d7a3-4087-851c-5906aba672af">
+                    <propertyInstance Id="977f3f15-b289-47a1-b534-4af581e4b2de" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="42ca72d8-f9fd-45da-8b60-1bb9ea19e04f" />
+                    </propertyInstance>
+                    <elementDefinition Id="ab251f32-4b60-4c87-bfbb-edd51d749217" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7d84cda0-307a-4bbe-b6e4-b8d1ed8b80d9">
+                    <propertyInstance Id="9679e6e4-f10a-4fbd-9673-2f4645f5fbaa" name="params" value="false">
+                      <elementDefinition Id="754da29d-bdb8-4123-91cc-781dc2f1e019" />
+                    </propertyInstance>
+                    <elementDefinition Id="b0045b43-9026-441b-80eb-8cd062d3bbf7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ee8dbb93-1ccf-430e-b02f-3ffa915d6b81" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="be026ac4-9c82-4200-85a4-a947bf492d2c" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="842d7581-d622-43aa-aa1d-120bb165fdff" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DwebClient_DownloadStringCompleted OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="e66d8b1b-aa82-4048-8ed4-926bc514a5a5" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f3f213bf-4e90-4448-a67d-8001fa63d322" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5376475e-c925-4416-9143-1e3ff5f5fc95" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="b6dfe939-74ea-4d18-b472-964200f48928" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DwebClient_DownloadStringCompleted OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Net.dll&quot; Namespace%3DSystem.Net Type%3DDownloadStringCompletedEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="25f0e161-2de9-4f40-9c66-b738e2c5c58a" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="38217741-7519-423a-a799-57b9fa33a40e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f2e3367f-5601-476a-be42-d7f5aa0c1540" LastKnownName="DownloadStringCompletedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c2a08fce-8925-4e29-b728-fd1d68bea216" name="OnNavigatedTo" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="70d2a6bc-967b-45fe-9a32-e50b56928e58" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DOnNavigatedTo OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Navigation Type%3DNavigationEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="69b37ffb-b5fd-4f7e-a24a-f06bb65d1558" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="6373892c-6dd6-4f05-83c3-05989416486a" name="method" profile="CSharpProfile">
+                <elementDefinition Id="4a8a483e-9abe-4ca9-83e5-6aeea826b078" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0c98ed1a-4c80-4822-9d36-b2a3ccb17525">
+                    <propertyInstance Id="67a28cb8-e9b7-4654-a93b-637f7811f5a1" name="ClrAttributes">
+                      <elementDefinition Id="9d9437a5-e748-465e-b991-279f031c3cea" />
+                    </propertyInstance>
+                    <elementDefinition Id="48ae07e4-35e3-40c9-a1c5-06264211c6b7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="57e79e03-9fc8-4b4c-8838-1d7c35eeb629">
+                    <propertyInstance Id="2805f546-7f38-429e-a2ec-80a5f1a864f2" name="IsPartial" value="false">
+                      <elementDefinition Id="a71234a1-49fb-430f-adc2-7e394da14219" />
+                    </propertyInstance>
+                    <elementDefinition Id="d47e1f10-db8f-4ca5-bccb-d259e9f77327" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b715bafd-d8da-4373-a031-252301256b46">
+                    <propertyInstance Id="b3a92c74-e825-45b9-9374-e025d185019d" name="IsUnsafe" value="false">
+                      <elementDefinition Id="a25bc943-81f0-4970-9ee5-3e0f55f3b27a" />
+                    </propertyInstance>
+                    <elementDefinition Id="b006584f-2939-4908-9088-c89b5d5d2093" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d3cc54cb-19b8-423f-b5bf-49c9c6e8d96b">
+                    <propertyInstance Id="bae160c8-5dfd-4687-bc10-803a452da32b" name="Inheritance" value="none">
+                      <elementDefinition Id="b05b891e-e9ab-467a-a3a7-686d9dbe02a3" />
+                    </propertyInstance>
+                    <elementDefinition Id="98cab4fa-99a8-4f7a-9939-e5a03ae0273f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="dfb9ca8b-13d3-4552-8e11-bcc39c45821c">
+                    <propertyInstance Id="a98524d9-0c65-40a6-b0ac-92e5028d8112" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f52a0066-13a9-476a-a97a-0558fc3e27ab" />
+                    </propertyInstance>
+                    <elementDefinition Id="6b184289-0966-4f7a-8444-e31815894233" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="39a85101-eaf9-45bc-9106-43735aad6466">
+                    <propertyInstance Id="6f275e27-445c-4af7-aa36-ad2ab1503283" name="params" value="false">
+                      <elementDefinition Id="002b54ce-5f3c-4b8f-8fde-0a157d14ef82" />
+                    </propertyInstance>
+                    <elementDefinition Id="dcfba6d6-0d06-40df-9441-5d3bd21a3cda" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="f46a35b3-87f4-402e-ac75-3353a969c57c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="000630e7-1e9e-4a73-834a-28c3a1da7395" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="9da507bd-7ce1-4b70-8ad9-6796066a3dc6" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DOnNavigatedTo OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Navigation Type%3DNavigationEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="0e05fe11-79c5-49f9-9aad-5e422bed3865" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="808c793c-5b0c-4e9f-a54f-b9142d439c1f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="71eac313-15f2-48dc-aadd-7928d34d8b7c" LastKnownName="NavigationEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="17db3c88-f5b5-4c31-b565-e024e3012110" name="UpdateFeedList" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="0ebc6ba6-894c-44e8-b5e6-9e3a0c862a76" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DUpdateFeedList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="3699bf2e-ae38-4939-ad06-afc34d2ab672" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="4b9e9c03-fcd3-4de6-970b-be50ab4049fd" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b9e18f46-19a0-4d11-bdc4-81f8a8d8fa3a" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="721807eb-f1a9-40c4-961a-c50c8a8763ab">
+                    <propertyInstance Id="f5927836-b072-4d15-bced-306600bb0572" name="ClrAttributes">
+                      <elementDefinition Id="ada0b016-2532-4882-a5bb-84f251fb5f4a" />
+                    </propertyInstance>
+                    <elementDefinition Id="ba98f2e9-81d7-476e-a01d-d8f62dc8e65c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2d5f177b-d30d-4322-8ef2-1aa142ec0600">
+                    <propertyInstance Id="2a8a3eb5-b250-486b-ac8b-31bc7d0e69aa" name="IsPartial" value="false">
+                      <elementDefinition Id="2dd9546e-f8a3-4815-b4ee-367a65417db7" />
+                    </propertyInstance>
+                    <elementDefinition Id="f1c54fd3-9343-4341-a167-c84bb2adcde0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="380c3110-cefc-498e-96ec-d3dff04b5acf">
+                    <propertyInstance Id="6dd43b34-3ad9-459c-add9-6e4f0137168d" name="IsUnsafe" value="false">
+                      <elementDefinition Id="86f06f93-df39-40b5-a167-6ec79d1c800f" />
+                    </propertyInstance>
+                    <elementDefinition Id="ac5a0c01-4e23-4951-a411-9e51b5ca1544" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2d03e3a7-05c7-458c-bdc4-8a52cc2c8187">
+                    <propertyInstance Id="690d818e-c973-4bdf-b872-6d1a714216d2" name="Inheritance" value="none">
+                      <elementDefinition Id="8dc3c6cb-a457-425d-98c8-05acfde4ea71" />
+                    </propertyInstance>
+                    <elementDefinition Id="78294770-6f01-43b4-b99a-8f5183a083c4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="13a0b409-203e-444d-bd38-58981640f0d8">
+                    <propertyInstance Id="de57434a-fbff-4df5-9e89-7948294c7cd5" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ba71aa9e-a2cd-4506-9b8f-861ee74516e9" />
+                    </propertyInstance>
+                    <elementDefinition Id="7b12f402-208f-4ea0-bc0f-b9471d1a979a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9b7650b0-be9d-4f36-abee-1810899054c5">
+                    <propertyInstance Id="d0f0e948-8ce8-4fe0-b01b-014e5548dd41" name="params" value="false">
+                      <elementDefinition Id="a538376d-8f05-4103-85bb-1157a524abd0" />
+                    </propertyInstance>
+                    <elementDefinition Id="a82b5ed5-6a39-425f-a2b9-e0ae197873b2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9bd08430-4d1d-4cf0-9850-1e63ae0794bc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f310aab3-eb8c-4392-bcfa-c2971c9b9ae3" name="feedXML" direction="In">
+                  <referencesInternal>
+                    <reference Id="a0c640c4-a3d8-4d22-9fe4-d4e7ca7661c3" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DUpdateFeedList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DfeedXML" tag="ViewCode">
+                      <elementDefinition Id="55c4e095-929d-4d56-b2e0-8ff2b5873f34" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="7e57a259-e797-472e-a5f5-ba828fd3ced8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3e16ce53-32fc-4d56-baf5-59bf381ef480" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="561a6af0-359f-4614-9718-64d50d3b4d32" name="feedListBox_SelectionChanged" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="2eb59487-9891-4fd3-9288-d55f7b8358f0" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DfeedListBox_SelectionChanged OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DSelectionChangedEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="eace93da-8179-4a06-bec4-59b42587cb26" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="cc503c01-2734-4701-a340-f0174c13a5e9" name="method" profile="CSharpProfile">
+                <elementDefinition Id="5e2aa771-4740-4f97-ace4-20dac42950df" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6a0eb060-070f-40d7-b4ac-4636ee054569">
+                    <propertyInstance Id="062b02a2-1eec-49f4-92c1-c88a501b2c3c" name="ClrAttributes">
+                      <elementDefinition Id="e0a9049a-5011-4f03-bc70-3f9670d26da7" />
+                    </propertyInstance>
+                    <elementDefinition Id="00375e55-8313-4e97-85b3-2ce9b2317e5d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e3658792-494a-4765-8238-73245e5b4db7">
+                    <propertyInstance Id="dae6c537-2ed1-4f39-9f9c-42c34a332dbc" name="IsPartial" value="false">
+                      <elementDefinition Id="87984163-3c83-4a11-a103-e788cf043eaa" />
+                    </propertyInstance>
+                    <elementDefinition Id="9291384c-5752-4343-a524-8a5ef2720981" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="20042d14-c6b2-47cf-a311-c880dd8b411c">
+                    <propertyInstance Id="1d7a19e7-999c-472c-b263-93801a31c552" name="IsUnsafe" value="false">
+                      <elementDefinition Id="aaff0f25-9073-4127-bd02-b3ae1baf486e" />
+                    </propertyInstance>
+                    <elementDefinition Id="a37cbcbe-ddd6-463c-a1c0-12c8ffb1110d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="369e3512-c9fe-4265-88ff-645fdb061b88">
+                    <propertyInstance Id="b776797e-aa65-4d7e-a101-fe29304c8558" name="Inheritance" value="none">
+                      <elementDefinition Id="cc926593-dcbd-4000-b91f-919d0fefcb5e" />
+                    </propertyInstance>
+                    <elementDefinition Id="eadb2a8b-6324-4235-8ac8-ea5f08dba205" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="84aa63a5-1ae2-48af-a149-dc0e6c0cd43c">
+                    <propertyInstance Id="eef69f99-1f9d-4bbe-84ed-ba4b8771402e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="0e9fdb51-058d-4b16-a83f-a8f9da20d785" />
+                    </propertyInstance>
+                    <elementDefinition Id="fb939006-9b79-4284-bf96-68fd04004fc8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a220998a-006f-46d3-9f4f-2fa8c999e52c">
+                    <propertyInstance Id="8d7de660-3652-41f8-82db-45a956cf402c" name="params" value="false">
+                      <elementDefinition Id="03b2d444-6d5f-41fe-bcd2-4d76514e47b7" />
+                    </propertyInstance>
+                    <elementDefinition Id="c5e5a9b9-9b8e-4ef2-8f8a-81fb62e446dd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="18790f9a-c2db-4c88-87ba-e6305fcb2495" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f7c274fb-577f-4014-b30c-44c89a4b43cb" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="68bc1280-93a0-486b-8eeb-1da820b56187" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DfeedListBox_SelectionChanged OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DSelectionChangedEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="d5f2dfc4-ca6f-4599-8801-7d0680bbbdf3" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f1635c33-2fd6-464c-aac0-603db287c2d7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="74774a0f-1cf1-425d-9ab3-696500550beb" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="fba655c5-3249-4372-82dc-ad65d8bb82aa" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DfeedListBox_SelectionChanged OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DSelectionChangedEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="95d9aa79-0ce8-4902-bc0a-1557f6179cde" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f15c02e1-4864-4f36-aef5-6625c744b14a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="76ab9b60-5f75-45a1-a581-642eb441416c" LastKnownName="SelectionChangedEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c48a5965-7cbb-477f-bda9-5f7982df7015" name="Appointment_Tap" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="e5ae2aea-32c3-4f70-b176-8ef18cbc89f4" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DAppointment_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="13ccc641-8e06-4ad2-9168-4f57fb2d81c6" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="3c1b3dbe-0128-409e-896a-8ade57f6b560" name="method" profile="CSharpProfile">
+                <elementDefinition Id="db942bd2-b72c-491e-8e49-dd42ef68df0d" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3ae6a3ab-7295-4bed-9642-4e74cca7b580">
+                    <propertyInstance Id="d29c07d6-750b-4d91-ac4a-31b0f120323f" name="ClrAttributes">
+                      <elementDefinition Id="0b44bd14-43b4-4b1b-aaf3-15649e586272" />
+                    </propertyInstance>
+                    <elementDefinition Id="775b61ec-bb0e-4fd5-8bc5-171289b981e9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="feccd3a6-fb9d-41b0-84c3-135964122e89">
+                    <propertyInstance Id="ee0464cb-3b20-4c99-a264-72f0281090a2" name="IsPartial" value="false">
+                      <elementDefinition Id="dbef3084-2a3e-4ba8-9dc6-a3eead794627" />
+                    </propertyInstance>
+                    <elementDefinition Id="f4f8faf4-9a62-4fcc-9dec-4b3cfa392126" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="31ecbcc8-ddd2-4381-a6ec-31fb5798e312">
+                    <propertyInstance Id="2f137ecf-48ec-46ce-b485-e66fd60ce8be" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b96bf01c-39d3-4356-9406-a676af4279c3" />
+                    </propertyInstance>
+                    <elementDefinition Id="89212275-de24-4b7e-8f89-1813b7d6c57f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b02e0075-a705-4171-a1c5-2eb008453d22">
+                    <propertyInstance Id="f2f86746-da26-4af1-a8c3-1aa046187295" name="Inheritance" value="none">
+                      <elementDefinition Id="d0f1d88b-3fb9-4250-8bcc-d2023f687238" />
+                    </propertyInstance>
+                    <elementDefinition Id="1c3b358a-158a-40ee-a793-96691c8581cc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ad42e5d4-4db7-4669-9b4a-88209a73c63d">
+                    <propertyInstance Id="7481dd90-558d-4d1b-be8d-8c6cb4ea6de5" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="6d769469-73cf-4c9d-b9ea-a7e4f9382d0c" />
+                    </propertyInstance>
+                    <elementDefinition Id="1b6d9305-f19e-4d87-b6ff-2a56d02aafef" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cf22a1b6-d20c-451a-acb2-62c2875569ab">
+                    <propertyInstance Id="e5ad5c0d-c944-430c-a4db-5cdcc8f2b6c7" name="params" value="false">
+                      <elementDefinition Id="6824a52b-4d38-4a32-87d4-7b3007f35ad0" />
+                    </propertyInstance>
+                    <elementDefinition Id="f336bdde-5752-4f00-97fc-ed6389283ecc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ee120714-fa4e-475b-841f-614ac7e8bead" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="fd9a6c93-68e3-4422-95a8-db5be4d32802" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="bb6e198a-7482-497b-9d7a-4edd4e512136" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DAppointment_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="30ea9fe1-3563-4ee0-92bf-056d03b71de2" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f7871bc1-6598-497a-a6a2-ef6fa089d261" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="34fc1b74-54fd-47ef-867f-bdc94b88aaf2" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="84461c97-09fa-4d97-be95-5b18b6bebba3" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DAppointment_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="71df4c2b-c20f-49cb-8f69-d07163055c72" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ebe2e143-2a9b-4a54-ba36-66d3c5a0fb9a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b7c64789-6a9a-43af-b519-93acc943748e" LastKnownName="GestureEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="2741f733-1831-4a9b-a245-d035663e9335" name="TextBlock_Tap" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="abb99df4-3969-4567-8104-acc74132cb36" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DTextBlock_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)])" tag="ViewCode">
+                <elementDefinition Id="2c76bf0a-a8e4-4fe4-9dfd-4d0ee00de59c" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="36015903-c7f4-4ad6-9165-469f1cb69819" name="method" profile="CSharpProfile">
+                <elementDefinition Id="6597a973-8bb7-474b-be0a-ddae8d82e554" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5cb763c7-4759-4c8e-9c41-0333286ab8c0">
+                    <propertyInstance Id="d930686d-1a56-4f3f-aba3-0ef69d36d235" name="ClrAttributes">
+                      <elementDefinition Id="41b768c0-16bd-4794-b97d-eebab0c2006a" />
+                    </propertyInstance>
+                    <elementDefinition Id="262a10c9-88c5-402a-b2c5-d5070caf71c1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d4fd69fa-5a71-48e6-a76b-416094252fde">
+                    <propertyInstance Id="634fd9d4-84bc-4967-82fd-166184d243da" name="IsPartial" value="false">
+                      <elementDefinition Id="e27ee0ed-4fe3-4264-aa9f-a10f9b44f24e" />
+                    </propertyInstance>
+                    <elementDefinition Id="cda87707-05fd-494a-9b87-b88d6bc273e8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f922961c-93a7-471c-88db-a659c239c6b1">
+                    <propertyInstance Id="edcaf179-5e21-4d0a-a26b-5b00038ba785" name="IsUnsafe" value="false">
+                      <elementDefinition Id="3b5130ef-394a-4c1c-8b48-352547b46230" />
+                    </propertyInstance>
+                    <elementDefinition Id="e75ca27f-a265-40b9-a0a4-e3c32c3b0ba1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3588a83b-eb29-4461-9197-d2379e917f58">
+                    <propertyInstance Id="fca804e5-98ae-4ef0-981d-02fb059f03d4" name="Inheritance" value="none">
+                      <elementDefinition Id="7900c656-8c4c-46b9-9635-97fe58f1349a" />
+                    </propertyInstance>
+                    <elementDefinition Id="ab3febef-825e-4765-9f55-03109f42b639" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c77c7b62-5be8-468e-b9dc-ce0c158d5228">
+                    <propertyInstance Id="3d9f508d-4e58-437e-b545-8266b61d5161" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="bed3e010-0632-44d8-9e95-2e6cc7cca599" />
+                    </propertyInstance>
+                    <elementDefinition Id="21c39b27-5964-4091-9a76-86e2bade7bed" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="22bfab18-a4ba-4ae1-8c8e-797a3d87eacb">
+                    <propertyInstance Id="e72f7640-6251-4273-b452-5a77d0413fc3" name="params" value="false">
+                      <elementDefinition Id="b1c73f77-84ef-429f-b782-dddcf79f5481" />
+                    </propertyInstance>
+                    <elementDefinition Id="3dd69c2b-4eb3-4dbb-a57f-7368fcab8ae0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="00d61525-bcc0-4823-bee0-17f344c2416e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="682e0a99-b3ad-40d1-9a7b-f1da320768bd" name="sender" direction="In">
+                  <referencesInternal>
+                    <reference Id="cbd8d8e3-d4cd-4795-913f-fca8d74c90ec" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DTextBlock_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3Dsender" tag="ViewCode">
+                      <elementDefinition Id="cc089b15-9853-4cd4-ad1b-bf5090f72227" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="55016ad7-5db6-487e-9353-76a03c44a6fe" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" LastKnownName="Object" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="79124cc7-589d-4b94-bae7-033bc1ef55f7" name="e" direction="In">
+                  <referencesInternal>
+                    <reference Id="04ec9b32-5911-4eac-8c3a-ac48ff567ba4" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D(Name%3DTextBlock_Tap OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Input Type%3DGestureEventArgs)]) ParameterIdentifier%3De" tag="ViewCode">
+                      <elementDefinition Id="395436b7-26ca-470a-82b0-ff5d7a48b8ae" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="54cd818e-342a-4a24-b600-2c7309e9d96c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b7c64789-6a9a-43af-b519-93acc943748e" LastKnownName="GestureEventArgs" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="bd929b6e-7901-4297-8fd1-6ac070d12c5b" name="InitializeComponent" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="443c04d6-d7f6-42ff-a9bd-bd896819711b" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3DInitializeComponent" tag="ViewCode">
+                <elementDefinition Id="dbbe71d3-47e7-41c4-b3c8-7829797f48b4" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a75da083-6da3-43e1-92bd-d7c760fc8e14" name="method" profile="CSharpProfile">
+                <elementDefinition Id="8ff1ed68-bdbb-4685-b282-ad23d0b40631" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b3afe9d9-8011-4344-b5b3-1c9c443af013">
+                    <propertyInstance Id="651e4ed6-379f-46fc-961a-da9a746c8d40" name="ClrAttributes">
+                      <elementDefinition Id="a57373ce-4c5b-49c1-b23c-c94c7da71c9a" />
+                    </propertyInstance>
+                    <elementDefinition Id="2b600fa8-1c6b-4493-b98e-8cc778f12914" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="689d382a-fd5f-47a5-b6a1-0949bf2f6a11">
+                    <propertyInstance Id="1434fe40-98d1-4cb4-9fb8-71ee247d1b51" name="IsPartial" value="false">
+                      <elementDefinition Id="646bbc5b-6709-450c-8485-4212b20137e7" />
+                    </propertyInstance>
+                    <elementDefinition Id="a1492f8e-5d55-4252-a241-2c55ed1b5c00" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cdf90009-b4f9-4094-b96e-484a138efb92">
+                    <propertyInstance Id="91051cd6-4f79-4746-b8be-6163bab4a169" name="IsUnsafe" value="false">
+                      <elementDefinition Id="8b7ee6a2-4c57-4e6f-9f74-92b78fb3a17f" />
+                    </propertyInstance>
+                    <elementDefinition Id="175e7ab3-fc06-420d-b2a9-a7aa2e238d56" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="47c0505f-6296-4845-b403-536b005e5bee">
+                    <propertyInstance Id="3a74904d-6f62-405f-ad4a-a480b7a2c618" name="Inheritance" value="none">
+                      <elementDefinition Id="239bbca2-3647-4820-996a-e2fcede049b1" />
+                    </propertyInstance>
+                    <elementDefinition Id="b9b077ef-1e50-4ca5-b090-b515196878d9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="df262693-12cc-4373-8196-50ef9ef48b84">
+                    <propertyInstance Id="f6df1db0-0e05-49fb-8290-68cd3a1828f2" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="7a565949-92c8-4b1c-a31e-786c8cf98070" />
+                    </propertyInstance>
+                    <elementDefinition Id="80e1bc7d-4b5e-47d3-8bce-e5d88dfdb056" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ff1e661d-7f77-405b-a921-f1a61c9e995c">
+                    <propertyInstance Id="f027e536-ffd9-471c-9a40-2ed76be94a0c" name="params" value="false">
+                      <elementDefinition Id="a6a12041-c4ba-46ef-b1a4-c9307f04a706" />
+                    </propertyInstance>
+                    <elementDefinition Id="b122ca61-520c-4b06-b0c7-bda883666c4d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="f8614bf8-0853-4427-b118-a2042c409964" />
+          </operation>
+          <operation Id="d85bb37e-7500-41c1-b307-e340025de12e" name="MainPanoramaPage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="ff54ba22-07f2-48cc-8b2d-651e1f6e1f2e" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Finform%2FDesktop%2FPersona Health%2FPersonaHealth%2FMobileSDK%2FWeightTrackerDemo%2FBin%2FDebug%2FPersonaHealth.dll&quot; Namespace%3DPersonaHealth Type%3DMainPanoramaPage Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="18d3457f-310f-4171-823d-7936cc712729" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0f07be4d-2ba2-4e2b-8809-5275021a9d1a" name="method" profile="CSharpProfile">
+                <elementDefinition Id="25d44150-17bf-48f7-a998-b6a659d19cdd" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="509f0a02-68e5-4af3-bdd6-a6125189109e">
+                    <propertyInstance Id="f9bcee40-3af8-4d8e-91da-fe87c3871fd1" name="ClrAttributes">
+                      <elementDefinition Id="66af4ff9-ccf4-4798-bc49-976b58dabd43" />
+                    </propertyInstance>
+                    <elementDefinition Id="7f09b93f-0b8a-4b0e-94d6-05ca1d00d91a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2ec35b08-ee28-4254-b96d-389f8cb9b275">
+                    <propertyInstance Id="1776d439-0ca1-4a91-8fc9-003885bda93a" name="IsPartial" value="false">
+                      <elementDefinition Id="d1714cb8-b059-4ab0-9a7e-c4b8024ed381" />
+                    </propertyInstance>
+                    <elementDefinition Id="ec0c6224-5c10-400c-8697-1aaa51cabe99" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a002c858-6939-44f7-9757-80f1778fe575">
+                    <propertyInstance Id="e6de6d01-68b2-487d-ac3e-f72ef4387860" name="IsUnsafe" value="false">
+                      <elementDefinition Id="f77b2988-19f8-4152-95bc-fe2bfff5f54b" />
+                    </propertyInstance>
+                    <elementDefinition Id="882facc7-db58-4605-bcb5-6654749db2bc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1a874a7c-bfd1-4a67-b671-1d084e70b656">
+                    <propertyInstance Id="28733f98-d70a-4095-8cb5-97f28483a3c1" name="Inheritance" value="none">
+                      <elementDefinition Id="61e601e6-d9b0-4223-aa7c-50c2fb4bd909" />
+                    </propertyInstance>
+                    <elementDefinition Id="021bde55-c55e-476b-9b98-893c7f903f9a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0a14f754-276b-47db-80c4-e185adb0418c">
+                    <propertyInstance Id="0f00f83a-288c-4863-bc16-dc756c1c0ca8" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="2dff6f4f-70c8-44d8-8bea-ec5162361e3a" />
+                    </propertyInstance>
+                    <elementDefinition Id="26421ece-fb79-4e93-b3fb-27e93e19db47" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b318a2ce-eb64-4318-8bb3-4abf30660758">
+                    <propertyInstance Id="0ce9ff4e-4270-429f-97a7-c964f5791350" name="params" value="false">
+                      <elementDefinition Id="9b97a8fd-18ae-4f49-93d0-318e34ecf62f" />
+                    </propertyInstance>
+                    <elementDefinition Id="353b9fd7-f702-451f-ab95-d1176854b781" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="17c67cbe-45d1-41e7-8578-94f769a12f59" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="f58ccae5-b7b1-4000-80ca-e1f9ef1148a9" name="Grid" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Controls::Grid">
+        <elementDefinition Id="9680efd9-831c-41c6-b5b0-1065b5477762" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="aa569a30-a6c8-4927-b713-7643f09394ad" name="StackPanel" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Controls::StackPanel">
+        <elementDefinition Id="c9e1ced5-8b61-45a5-9b3f-3d4d24fcce63" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d9874543-5813-4fc0-ac63-fd5108e0a783" name="Button" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Controls::Button">
+        <elementDefinition Id="8c60f19b-d3f9-4f1b-821a-820873d9fc9e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b98ebe26-cdd6-41c7-8a50-5afba2ad7af9" name="Image" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Controls::Image">
+        <elementDefinition Id="9142fcd8-c943-4594-93bc-00affefe5201" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="948f6dea-d915-4487-aaf5-c770dad47f24" name="TextBlock" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Controls::TextBlock">
+        <elementDefinition Id="e0c50f4a-05b9-4b79-82ca-af48fffc236d" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="bdbe3c47-a1a6-4ee6-942b-6af57052c63c" name="ListBox" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Controls::ListBox">
+        <elementDefinition Id="1f59ee89-ad41-4129-a5b1-02ea0c35cc3a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="dbeb6ba8-7690-4eeb-a55e-a1badc45d5a8" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5a7c645f-38ea-49ba-9589-7132eed97a5f" name="Object" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Object">
+        <elementDefinition Id="e6f1a3a4-4836-49bc-aa68-b6f909aba80b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b7c64789-6a9a-43af-b519-93acc943748e" name="GestureEventArgs" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Input::GestureEventArgs">
+        <elementDefinition Id="7fdaad67-5f40-4bdd-a08c-72948ec16f73" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1b6f5a90-b807-4f52-a2c4-dbaf3c7e80a8" name="EventArgs" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::EventArgs">
+        <elementDefinition Id="5095a9cb-5c71-40df-b4be-2248fb264e42" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d07cb0e8-2dd3-4743-9152-09f992ecce4e" name="RoutedEventArgs" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::RoutedEventArgs">
+        <elementDefinition Id="e50ca5f0-fdda-4963-a3f1-ed05d39425f4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f2e3367f-5601-476a-be42-d7f5aa0c1540" name="DownloadStringCompletedEventArgs" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Net::DownloadStringCompletedEventArgs">
+        <elementDefinition Id="027075d4-0ec7-49ec-8585-425b89de70c1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="71eac313-15f2-48dc-aadd-7928d34d8b7c" name="NavigationEventArgs" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Navigation::NavigationEventArgs">
+        <elementDefinition Id="2419d74a-ddfa-4be3-a98f-74ad8e4704f2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3e16ce53-32fc-4d56-baf5-59bf381ef480" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="76ab9b60-5f75-45a1-a581-642eb441416c" name="SelectionChangedEventArgs" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Controls::SelectionChangedEventArgs">
+        <elementDefinition Id="8e3638a7-0fae-4764-bad8-56659e14b759" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="44c95be4-b554-4391-aa1b-b1b81488ff79" name="ModelingProject1">
+    <elementDefinition Id="a614ef37-03b9-4f5d-96e2-877c2f775868" />
+  </package>
+</logicalClassDesignerModel>

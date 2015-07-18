@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7f08b57c-7b66-498f-86a0-08dd324b380f"
+  name="Phone"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3fe46e5d-3dbd-410c-9fe7-449e5469b6ba"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Phone"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a52b71a6-ec97-4ba8-a8e9-63efb48ab8fc"
+        LastKnownName="Shell"
+        LastKnownLocation="Package4_0826.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c24a2b8b-379e-4974-ad93-6031b9fd8eaa"
+        LastKnownName="Controls"
+        LastKnownLocation="Package7_0826.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

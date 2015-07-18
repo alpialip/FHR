@@ -1,0 +1,90 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions" 
+    x:Class="PersonaHealth.PivotInfo" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <controls:Pivot x:Name="pvtControl" Title="MY APPLICATION">
+            <controls:Pivot.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1B3E33" Offset="0"/>
+                    <GradientStop Color="#FF50BBBB" Offset="1"/>
+                </LinearGradientBrush>
+            </controls:Pivot.Background>
+
+            <!--Pivot item one-->
+            <controls:PivotItem Header="Health Info" x:Name="pvt1" Margin="10,0,14,28">
+                <Grid HorizontalAlignment="Left" Height="481" Margin="15,-2,0,0" VerticalAlignment="Top" Width="399">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="289*"/>
+                        <ColumnDefinition Width="110*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left" Height="38" Margin="10,33,0,0" TextWrapping="Wrap" Text="Allergies" VerticalAlignment="Top" Width="212" FontSize="24">
+							<i:Interaction.Triggers>
+								<i:EventTrigger EventName="MouseLeftButtonDown">
+									<ec:NavigateToPageAction TargetPage="/Allergy_Pivotxaml.xaml"/>
+								</i:EventTrigger>
+							</i:Interaction.Triggers>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Height="38" Margin="10,95,0,0" TextWrapping="Wrap" Text="Emergency Call" VerticalAlignment="Top" Width="212" FontSize="24" Tap="Emergency_Call">
+                    </TextBlock>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Pivot item two-->
+            <controls:PivotItem Header="Measurement" x:Name="pvt2">
+                <Grid x:Name="ContentPanel" Margin="0,0,0,71">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.412*"/>
+                        <ColumnDefinition Width="0.34*"/>
+                        <ColumnDefinition Width="0.248*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.02*"/>
+                        <RowDefinition Height="0.134*"/>
+                        <RowDefinition Height="0.065*"/>
+                        <RowDefinition Height="0.634*"/>
+                        <RowDefinition Height="0.147*"/>
+                    </Grid.RowDefinitions>
+                    <ProgressBar x:Name="c_progressBar" VerticalAlignment="Top" Grid.ColumnSpan="3" IsIndeterminate="True" Visibility="Collapsed"/>
+                    <StackPanel Margin="0" Grid.Row="1" Grid.ColumnSpan="3" Orientation="Horizontal">
+                        <TextBlock TextWrapping="Wrap" Text="Weight" VerticalAlignment="Center" FontSize="24"/>
+                        <TextBox x:Name="c_textWeight" TextWrapping="Wrap" Width="162" InputScope="Number" VerticalAlignment="Center" Margin="30,0,0,0"/>
+                        <TextBlock TextWrapping="Wrap" Text="kg" VerticalAlignment="Center" Margin="0,0,14,0"/>
+                        <Button x:Name="c_SaveWeight" Margin="9,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                            <TextBlock TextWrapping="Wrap" Text="Save" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Button>
+                    </StackPanel>
+                    <TextBlock x:Name="c_Response" Grid.Row ="3" Text="Results" Margin="0" Style="{StaticResource PhoneTextNormalStyle}" Grid.ColumnSpan="3" FontSize="24"/>
+                    <Button Grid.Row="4" x:Name="c_AddRecord" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <TextBlock TextWrapping="Wrap" Text="Add Record"/>
+                    </Button>
+                    <Button Grid.Row="4" Grid.Column="1" x:Name="c_NewApplication" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <TextBlock TextWrapping="Wrap" Text="New App"/>
+                    </Button>
+                    <Button x:Name="c_ClearWeight" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="2" >
+                        <TextBlock TextWrapping="Wrap" Text="Clear" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Button>
+                    <Image Margin="0" Source="HVRibbon.jpg" Grid.Row="5" Grid.ColumnSpan="3" VerticalAlignment="Bottom" Height="79"/>
+
+
+                </Grid>
+            </controls:PivotItem>
+
+        </controls:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

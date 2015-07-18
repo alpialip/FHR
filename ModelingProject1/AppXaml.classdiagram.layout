@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AppXaml">
+  <logicalClassDesignerModelMoniker Id="0109eda9-2da6-4843-b39d-8f45fcae797e" />
+  <nestedChildShapes>
+    <classShape Id="aae007ec-c5ce-4433-8536-5e54e9820a29" absoluteBounds="2.5, 0.5, 4.75, 3.9104917850097012" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="313f54d9-cd24-4847-9c09-dabc4555afda" LastKnownName="App" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="965ae781-fa73-4ee2-83cd-5689fd57e0bb" absoluteBounds="2.515, 1.0153356393178306, 4.7200000000000006, 1.4824218278129893" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="893ce421-32f2-4f22-83cb-dea7c07a5cfa" absoluteBounds="2.515, 2.5077574671308196, 4.7200000000000006, 1.8027343178788819" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

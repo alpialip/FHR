@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="ce932ed6-0734-48bf-a6a2-5df0ed2faad8"
+  name="Controls"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="65c59ae8-1a5f-42bc-9e0c-5b1cfd8548d1"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTelerik.Windows.Controls"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="59d0ac25-2568-41fe-bad4-17a2c6c686c0"
+        name="ViewModelBase"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a1b08628-ffe9-4d88-a855-a7086ffcba1f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FTelerik%2FRadControls for Windows Phone 8 Q2 2013%2FBinaries%2FWindowsPhone%2FTelerik.Windows.Core.dll&quot; Namespace%3DTelerik.Windows.Controls Type%3DViewModelBase"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f314951f-9f5b-4ffc-ad38-20208d440d8c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4aea6061-4767-4bac-9f7f-2370bc5d6224">
+                <propertyInstance
+                  Id="bb65b4e7-0717-41c9-8085-086001140433"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e2aec76-f0aa-4434-a826-823192dd92b6">
+                <propertyInstance
+                  Id="0e4e6995-fb60-4bd1-a523-87529d1cb5f3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4bdefd2-fb40-4499-8eb9-97d0cd18bcc4">
+                <propertyInstance
+                  Id="4a5f84de-896d-4052-aa17-2984fc7717d8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6629ed10-de8e-4456-860d-41ddd2286740">
+                <propertyInstance
+                  Id="461bfd52-4ae7-47bd-9cf5-0d52e642532f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c9247727-4130-46fc-afd5-2ede43355420">
+                <propertyInstance
+                  Id="7b7f8219-217e-4507-9c83-394a904e15bb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

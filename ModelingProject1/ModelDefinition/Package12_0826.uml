@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="ec0c8064-30ab-4f7e-8739-dcd9e613a8ba"
+  name="Controls"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d7bd48cf-6fed-4531-b3d2-f7ab272a9cc9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Windows.Controls"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9680efd9-831c-41c6-b5b0-1065b5477762"
+        name="Grid"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="64811bb2-ee6c-41f9-b807-b0dde4f3c817"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DGrid"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="20e4fc6e-573e-47d4-80ab-2d4d7375f7f9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9c9abe15-9e09-4ddc-9035-7f8f7097727c">
+                <propertyInstance
+                  Id="e188a1af-ab8e-44bf-a079-6ce2ffa3ccb6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de6464f1-0186-4eb1-9065-63c05edf13cc">
+                <propertyInstance
+                  Id="643ff258-8cff-4334-b115-37da1d4b2f34"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6963a2c2-94f4-4fb0-9945-0a281898040c">
+                <propertyInstance
+                  Id="5983b330-1b40-4e1a-8d46-eb714a455f78"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aadf4d68-de36-453b-9d30-05905c0b767d">
+                <propertyInstance
+                  Id="1222c985-cfd2-4d4f-8b14-a183cd30f42b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7874f5f2-da14-405c-a045-6d4447e88ab8">
+                <propertyInstance
+                  Id="b9ab6f2f-223f-495a-a7b3-173dc47d8f61"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5a74034d-9433-4105-9322-2ce8fd5a8043"
+        name="ProgressBar"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="748acce9-5b46-4ada-b659-272aae151bca"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DProgressBar"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8d162c37-101b-4288-93eb-93385afe62e4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d4a30333-772a-48a2-a809-04feb910c10d">
+                <propertyInstance
+                  Id="d9e7b35d-6296-48d2-831a-c9e88071bb55"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3563c468-bde6-431c-91fd-3541b78c574f">
+                <propertyInstance
+                  Id="644f6999-2180-4957-9e70-f32489201649"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a464a98a-300a-4dbd-acf0-1c5be7d8cc2a">
+                <propertyInstance
+                  Id="5607c66c-0a5e-48c4-b280-90641c3bf7fe"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2d02cb0-6c21-4609-953a-28bdd7105b27">
+                <propertyInstance
+                  Id="64823ec1-cdb4-4047-beb4-dffae8108dff"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c404b7b-4600-497a-bb72-b0e9f5b4fc64">
+                <propertyInstance
+                  Id="f2b31bf2-6158-4d65-9d05-56648d9f37e7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ea0b487c-258f-4a16-b224-eeea8bb3df53"
+        name="TextBox"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7c5d776f-ebbc-4324-90db-33f3b48e9def"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DTextBox"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="41d248f3-5012-4bd1-ae75-397ef3c3a90c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03a5afb2-c164-4cdc-8f9e-22fcf2c89653">
+                <propertyInstance
+                  Id="721ba90d-5fcf-4de2-bfc5-83734580e37b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d446cbba-a43b-4b2b-91bd-5ea2d0627474">
+                <propertyInstance
+                  Id="016484d7-0f08-423b-a2f0-de6f7770ba9b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f58686d7-4bcb-40a7-ab73-95f1b7790c3a">
+                <propertyInstance
+                  Id="0efa57d8-e3c5-4135-bf3e-fe02c72e4353"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08950975-0238-4dc2-ac08-5c88f5e69ea2">
+                <propertyInstance
+                  Id="7d8926ee-647a-4ddc-ac67-47e8401ba4f8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="40aa75a6-53c3-4ad2-b1c7-0d3894023f62">
+                <propertyInstance
+                  Id="2c0f91a9-fa54-4adf-a181-c4ba08d965f8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e0c50f4a-05b9-4b79-82ca-af48fffc236d"
+        name="TextBlock"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dba42057-0e8f-46af-8360-c3b5327bf52e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DTextBlock"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="398a6999-62c8-4eee-ae7e-1101a4128d15"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8698e74c-dfa5-4f77-a835-eb34adbc7624">
+                <propertyInstance
+                  Id="9685eae7-3f6d-45c5-b61f-4af30bdf9d70"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a40db75f-6457-4dba-9a48-34c8952227b1">
+                <propertyInstance
+                  Id="f8c27039-aeb8-4e48-bcb6-26dcfe041d2b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d3bda02-e883-4238-b08e-6efe24f43bd9">
+                <propertyInstance
+                  Id="539b3a33-4a4f-4e75-8ad5-1df7beb731a9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c9d81e3-1e6d-43f1-8319-15173aa5b2f4">
+                <propertyInstance
+                  Id="5cc08941-d8d3-43b5-b994-26b21023a599"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1608f1b3-dada-46d4-bea7-bdaf215d987f">
+                <propertyInstance
+                  Id="81a7cd69-91b0-4923-8424-c47773067fe6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8c60f19b-d3f9-4f1b-821a-820873d9fc9e"
+        name="Button"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7d98fec6-3d25-4bf0-870f-f478c162b49a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DButton"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4b21e3b4-3a0d-4dfe-8f42-ca6cb678b8e6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6cbfe7f7-5578-4da0-89b4-885f66e42352">
+                <propertyInstance
+                  Id="1d2ff026-4954-47d9-a565-58c66281b800"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="66d33714-031f-489b-8fca-241b3de1f863">
+                <propertyInstance
+                  Id="35af1d0f-1976-4d6d-9a5c-8c7089a66d27"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c9df6f4-dad4-48f2-a07b-6726c98256b8">
+                <propertyInstance
+                  Id="01fc531b-0362-4a66-bb18-a14008513c41"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d357e132-0e4c-481c-b443-fb5bf3144d70">
+                <propertyInstance
+                  Id="bbb0a39c-023b-49e9-9b62-6e9fd982f2e4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d241f9e-355c-415f-9e10-4d2da8e3fab1">
+                <propertyInstance
+                  Id="38aa4ac0-6915-4a4b-a0cc-88e7ffce9b2f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c9e1ced5-8b61-45a5-9b3f-3d4d24fcce63"
+        name="StackPanel"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="181f2608-4bef-4139-9ddc-7388e5ef6642"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DStackPanel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="af4e128a-60ac-44e3-974e-7d8ea0cc08d6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd39bef3-5ac9-4329-8d9e-daf6ca7b5808">
+                <propertyInstance
+                  Id="55413965-d7a0-47a4-862a-7c90b7bc34a0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe195cd8-ae21-41ed-aa50-922a95eb4cad">
+                <propertyInstance
+                  Id="a3cccf01-6740-4034-8431-da540a5a9c22"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="55764264-6ded-402d-8a2b-7bb61f61839d">
+                <propertyInstance
+                  Id="a2e47c38-cabb-4738-95df-c596d256767c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3aeee057-a8eb-4e15-a406-f8db761bd7f2">
+                <propertyInstance
+                  Id="4fa6e7d2-323f-4c77-b2ad-7dbaa1547c7e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4034c92-ed4a-4238-a5c3-d0ce75a00942">
+                <propertyInstance
+                  Id="f3838e3f-a56d-413d-8ec1-bd909c4dd988"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9142fcd8-c943-4594-93bc-00affefe5201"
+        name="Image"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ac9611d6-1b35-4880-915d-bae06eec4e35"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DImage"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="096bd031-28ab-48ba-a707-d9902543588c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="807ca944-1b99-4a3e-9b4d-cd2f7b164c68">
+                <propertyInstance
+                  Id="08e1a787-2a57-4795-9410-ad9c869e7859"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f96afa17-dbdd-4c1d-a2cd-e54a6942ab85">
+                <propertyInstance
+                  Id="72dd6c1f-d674-469c-b0fc-746ff9278a75"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f293036e-032d-46cc-879e-2b6d4ad08d8a">
+                <propertyInstance
+                  Id="229f8b73-a8bc-4e9b-9286-63eed3add2de"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb537da4-4cf3-4419-9668-c5eb802b9b15">
+                <propertyInstance
+                  Id="f93070f6-f555-4d94-91f5-4f6205dd9d03"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2047463-68f9-475e-8897-195a82748e3a">
+                <propertyInstance
+                  Id="bbeaff58-0d3f-4869-9789-a0c2e44939a8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8e3638a7-0fae-4764-bad8-56659e14b759"
+        name="SelectionChangedEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ee7eb67e-3b50-40bf-8726-d0779dc243ec"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DSelectionChangedEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2f51818f-f825-4c6b-993e-5ba32a295226"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d4689301-64a0-4ee1-9f20-8118c40f5831">
+                <propertyInstance
+                  Id="59afaf8f-593c-42f3-8856-73ec4f26ae07"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be1046f6-5c2d-4484-8841-010ba438b048">
+                <propertyInstance
+                  Id="734aa1dd-f370-456b-bb09-3059a624843c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ffdbd12e-0112-472f-81f3-ad4c5318b623">
+                <propertyInstance
+                  Id="c28a1954-0309-403e-9d8d-986c0fb98c42"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0fe1e088-5d9d-49e4-87f5-2ef33797d6b6">
+                <propertyInstance
+                  Id="82d9a51d-307b-429c-8297-16e3f119785b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d4f034ec-3544-4b97-8f65-238a0985e97e">
+                <propertyInstance
+                  Id="c66fd7d1-2dab-444e-9bbb-51d8245feb7a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="c202a2ae-0779-4880-8a1f-dce9c4f75bd1"
+            isSubstitutable="false">
+            <classMoniker
+              Id="e50ca5f0-fdda-4963-a3f1-ed05d39425f4"
+              LastKnownName="RoutedEventArgs"
+              LastKnownLocation="Package5_0826.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1f59ee89-ad41-4129-a5b1-02ea0c35cc3a"
+        name="ListBox"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0aa492c3-f17f-4549-882b-6a0602801cff"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FSilverlight%2Fv4.0%2FProfile%2FWindowsPhone71%2FSystem.Windows.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DListBox"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="19f8db79-e229-4e3e-843b-63fc376db794"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d68fbb1c-68fe-4583-a139-4235d6917da2">
+                <propertyInstance
+                  Id="8bdccf8e-962f-4708-a5ce-fdd980a42702"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d7c8e3d-f69a-4516-99a0-6d3ee2c19c55">
+                <propertyInstance
+                  Id="63a22f91-24b8-4f85-9d5e-8ef8522fc5b9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17f29be9-98bc-439d-a2a9-69f2ab7d89f6">
+                <propertyInstance
+                  Id="47160be8-ae2a-4a8e-b8fb-88cbca3d9422"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e79169c2-c7ca-4d10-915e-5513ac0ad9c4">
+                <propertyInstance
+                  Id="220e5790-abbd-4137-b88b-289862c7d2ee"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="da470710-8cfe-4c62-97f8-0ae24f3d0001">
+                <propertyInstance
+                  Id="a4bcb228-29b7-4df8-b9dd-f022d392bd52"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
